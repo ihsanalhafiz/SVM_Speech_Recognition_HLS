@@ -1,0 +1,151 @@
+
+
+================================================================
+== Vitis HLS Report for 'svm_speech_30_Pipeline_5'
+================================================================
+* Date:           Sat Dec 24 04:24:41 2022
+
+* Version:        2022.2 (Build 3670227 on Oct 13 2022)
+* Project:        SVM_speech_30
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  0.10 us|  6.508 ns|    27.00 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |       34|       34|  3.400 us|  3.400 us|   34|   34|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+        |          |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name|   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+        |- Loop 1  |       32|       32|         2|          1|          1|    32|       yes|
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 2
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 2
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 2, States = { 1 2 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 3.41>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%loop_index272 = alloca i32 1"   --->   Operation 5 'alloca' 'loop_index272' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%specbramwithbyteenable_ln0 = specbramwithbyteenable void @_ssdm_op_SpecBRAMWithByteEnable, i64 %Mdl_BinaryLearners"   --->   Operation 6 'specbramwithbyteenable' 'specbramwithbyteenable_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (1.58ns)   --->   "%store_ln0 = store i6 0, i6 %loop_index272"   --->   Operation 7 'store' 'store_ln0' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%br_ln0 = br void %load-store-loop271"   --->   Operation 8 'br' 'br_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%loop_index272_load = load i6 %loop_index272"   --->   Operation 9 'load' 'loop_index272_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%specpipeline_ln0 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 1, i32 0, void @p_str"   --->   Operation 10 'specpipeline' 'specpipeline_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (1.42ns)   --->   "%exitcond2896 = icmp_eq  i6 %loop_index272_load, i6 32"   --->   Operation 11 'icmp' 'exitcond2896' <Predicate = true> <Delay = 1.42> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.42> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%empty = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 32, i64 32, i64 32"   --->   Operation 12 'speclooptripcount' 'empty' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (1.82ns)   --->   "%empty_48 = add i6 %loop_index272_load, i6 1"   --->   Operation 13 'add' 'empty_48' <Predicate = true> <Delay = 1.82> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.82> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%br_ln0 = br i1 %exitcond2896, void %load-store-loop271.split, void %memcpy-split270.exitStub"   --->   Operation 14 'br' 'br_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%loop_index272_cast15 = zext i6 %loop_index272_load"   --->   Operation 15 'zext' 'loop_index272_cast15' <Predicate = (!exitcond2896)> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%dv4_addr = getelementptr i64 %dv4, i64 0, i64 %loop_index272_cast15"   --->   Operation 16 'getelementptr' 'dv4_addr' <Predicate = (!exitcond2896)> <Delay = 0.00>
+ST_1 : Operation 17 [2/2] (3.25ns)   --->   "%dv4_load = load i5 %dv4_addr"   --->   Operation 17 'load' 'dv4_load' <Predicate = (!exitcond2896)> <Delay = 3.25> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 64> <Depth = 32> <ROM>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%empty_49 = trunc i6 %loop_index272_load"   --->   Operation 18 'trunc' 'empty_49' <Predicate = (!exitcond2896)> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (1.58ns)   --->   "%store_ln0 = store i6 %empty_48, i6 %loop_index272"   --->   Operation 19 'store' 'store_ln0' <Predicate = (!exitcond2896)> <Delay = 1.58>
+ST_1 : Operation 30 [1/1] (0.00ns)   --->   "%ret_ln0 = ret"   --->   Operation 30 'ret' 'ret_ln0' <Predicate = (exitcond2896)> <Delay = 0.00>
+
+State 2 <SV = 1> <Delay = 6.50>
+ST_2 : Operation 20 [1/2] (3.25ns)   --->   "%dv4_load = load i5 %dv4_addr"   --->   Operation 20 'load' 'dv4_load' <Predicate = true> <Delay = 3.25> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 64> <Depth = 32> <ROM>
+ST_2 : Operation 21 [1/1] (0.00ns)   --->   "%tmp_s = bitconcatenate i8 @_ssdm_op_BitConcatenate.i8.i5.i3, i5 %empty_49, i3 0"   --->   Operation 21 'bitconcatenate' 'tmp_s' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 22 [1/1] (0.00ns)   --->   "%p_cast3 = zext i8 %tmp_s"   --->   Operation 22 'zext' 'p_cast3' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 23 [1/1] (1.63ns)   --->   "%empty_50 = add i11 %p_cast3, i11 1376"   --->   Operation 23 'add' 'empty_50' <Predicate = true> <Delay = 1.63> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.63> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 24 [1/1] (0.00ns)   --->   "%empty_51 = bitcast i64 %dv4_load"   --->   Operation 24 'bitcast' 'empty_51' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 25 [1/1] (0.00ns)   --->   "%tmp_5 = partselect i8 @_ssdm_op_PartSelect.i8.i11.i32.i32, i11 %empty_50, i32 3, i32 10"   --->   Operation 25 'partselect' 'tmp_5' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 26 [1/1] (0.00ns)   --->   "%p_cast16 = zext i8 %tmp_5"   --->   Operation 26 'zext' 'p_cast16' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 27 [1/1] (0.00ns)   --->   "%Mdl_BinaryLearners_addr = getelementptr i64 %Mdl_BinaryLearners, i64 0, i64 %p_cast16"   --->   Operation 27 'getelementptr' 'Mdl_BinaryLearners_addr' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 28 [1/1] (3.25ns)   --->   "%store_ln0 = store void @_ssdm_op_Write.bram.i64, i9 %Mdl_BinaryLearners_addr, i64 %empty_51, i8 255"   --->   Operation 28 'store' 'store_ln0' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 64> <Depth = 430> <RAM>
+ST_2 : Operation 29 [1/1] (0.00ns)   --->   "%br_ln0 = br void %load-store-loop271"   --->   Operation 29 'br' 'br_ln0' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 100ns, clock uncertainty: 27ns.
+
+ <State 1>: 3.41ns
+The critical path consists of the following:
+	'alloca' operation ('loop_index272') [3]  (0 ns)
+	'load' operation ('loop_index272_load') on local variable 'loop_index272' [8]  (0 ns)
+	'add' operation ('empty_48') [12]  (1.83 ns)
+	'store' operation ('store_ln0') of variable 'empty_48' on local variable 'loop_index272' [27]  (1.59 ns)
+
+ <State 2>: 6.51ns
+The critical path consists of the following:
+	'load' operation ('dv4_load') on array 'dv4' [17]  (3.25 ns)
+	'store' operation ('store_ln0') of constant <constant:_ssdm_op_Write.bram.i64> on array 'Mdl_BinaryLearners' [26]  (3.25 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

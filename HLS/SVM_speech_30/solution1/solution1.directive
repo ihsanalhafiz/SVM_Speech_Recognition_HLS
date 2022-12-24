@@ -1,0 +1,235 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+    <sourceFile name="">
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" positionalBoolean="4" value="return"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart1"/>
+                <option name="port" positionalBoolean="4" value="in2"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart1"/>
+                <option name="port" positionalBoolean="4" value="in6"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart1"/>
+                <option name="port" positionalBoolean="4" value="in8"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart1"/>
+                <option name="port" positionalBoolean="4" value="in7"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart1"/>
+                <option name="port" positionalBoolean="4" value="in5"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart1"/>
+                <option name="port" positionalBoolean="4" value="in1"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart1"/>
+                <option name="port" positionalBoolean="4" value="in4"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart1"/>
+                <option name="port" positionalBoolean="4" value="in3"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart2"/>
+                <option name="port" positionalBoolean="4" value="in11"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart2"/>
+                <option name="port" positionalBoolean="4" value="in10"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart2"/>
+                <option name="port" positionalBoolean="4" value="in12"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart2"/>
+                <option name="port" positionalBoolean="4" value="in13"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart2"/>
+                <option name="port" positionalBoolean="4" value="in15"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart2"/>
+                <option name="port" positionalBoolean="4" value="in16"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart2"/>
+                <option name="port" positionalBoolean="4" value="in9"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart2"/>
+                <option name="port" positionalBoolean="4" value="in14"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart3"/>
+                <option name="port" positionalBoolean="4" value="in21"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart3"/>
+                <option name="port" positionalBoolean="4" value="in19"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart3"/>
+                <option name="port" positionalBoolean="4" value="in17"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart3"/>
+                <option name="port" positionalBoolean="4" value="in24"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart3"/>
+                <option name="port" positionalBoolean="4" value="in20"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart3"/>
+                <option name="port" positionalBoolean="4" value="in18"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart3"/>
+                <option name="port" positionalBoolean="4" value="in22"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart3"/>
+                <option name="port" positionalBoolean="4" value="in23"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart4"/>
+                <option name="port" positionalBoolean="4" value="in28"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart4"/>
+                <option name="port" positionalBoolean="4" value="in29"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart4"/>
+                <option name="port" positionalBoolean="4" value="in31"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart4"/>
+                <option name="port" positionalBoolean="4" value="in26"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart4"/>
+                <option name="port" positionalBoolean="4" value="in32"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart4"/>
+                <option name="port" positionalBoolean="4" value="in30"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart4"/>
+                <option name="port" positionalBoolean="4" value="in27"/>
+            </pragma>
+        </directive>
+        <directive functionName="svm_speech_30" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="bundle" value="inputpart4"/>
+                <option name="port" positionalBoolean="4" value="in25"/>
+            </pragma>
+        </directive>
+    </sourceFile>
+</AutoPilot:ProjectResources>
+

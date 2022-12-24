@@ -1,0 +1,699 @@
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vitis_HLS/2022.2/bin/unwrapped/win64.o/vitis_hls.exe'
+INFO: [HLS 200-10] For user 'ihsan' on host 'ihsanalhafiz-la' (Windows NT_amd64 version 6.2) on Sat Dec 24 04:42:10 +0100 2022
+INFO: [HLS 200-10] In directory 'C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS'
+Sourcing Tcl script 'C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/export.tcl'
+INFO: [HLS 200-1510] Running: source C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/export.tcl
+INFO: [HLS 200-1510] Running: open_project SVM_speech_30 
+INFO: [HLS 200-10] Opening project 'C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30'.
+INFO: [HLS 200-1510] Running: set_top svm_speech_30 
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/CompactClassificationECOC.c 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/CompactClassificationECOC.c' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/CompactClassificationECOC.h 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/CompactClassificationECOC.h' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/MW_target_hardware_resources.h 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/MW_target_hardware_resources.h' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/_clang-format 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/_clang-format' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/buildInfo.mat 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/buildInfo.mat' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/codeInfo.mat 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/codeInfo.mat' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/codedescriptor.dmr 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/codedescriptor.dmr' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/codertarget_assembly_flags.mk 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/codertarget_assembly_flags.mk' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/compileInfo.mat 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/compileInfo.mat' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/gcGuiReport.mat 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/gcGuiReport.mat' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/rtGetInf.c 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/rtGetInf.c' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/rtGetInf.h 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/rtGetInf.h' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/rtGetNaN.c 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/rtGetNaN.c' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/rtGetNaN.h 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/rtGetNaN.h' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/rt_nonfinite.c 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/rt_nonfinite.c' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/rt_nonfinite.h 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/rt_nonfinite.h' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/rtw_proj.tmw 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/rtw_proj.tmw' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/rtwtypes.h 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/rtwtypes.h' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/svm_speech_30.c 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/svm_speech_30.c' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/svm_speech_30.h 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/svm_speech_30.h' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/svm_speech_30_data.c 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/svm_speech_30_data.c' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/svm_speech_30_data.h 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/svm_speech_30_data.h' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/svm_speech_30_initialize.c 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/svm_speech_30_initialize.c' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/svm_speech_30_initialize.h 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/svm_speech_30_initialize.h' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/svm_speech_30_internal_types.h 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/svm_speech_30_internal_types.h' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/svm_speech_30_rtw.bat 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/svm_speech_30_rtw.bat' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/svm_speech_30_rtw.mk 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/svm_speech_30_rtw.mk' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/svm_speech_30_terminate.c 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/svm_speech_30_terminate.c' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/svm_speech_30_terminate.h 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/svm_speech_30_terminate.h' to the project
+INFO: [HLS 200-1510] Running: add_files ../C_for_HLS/svm_speech_30_types.h 
+INFO: [HLS 200-10] Adding design file '../C_for_HLS/svm_speech_30_types.h' to the project
+INFO: [HLS 200-1510] Running: add_files -tb ../C_for_HLS/main.c 
+INFO: [HLS 200-10] Adding test bench file '../C_for_HLS/main.c' to the project
+INFO: [HLS 200-1510] Running: add_files -tb ../C_for_HLS/main.h 
+INFO: [HLS 200-10] Adding test bench file '../C_for_HLS/main.h' to the project
+INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
+INFO: [HLS 200-10] Opening solution 'C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 100ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-1464] Running solution command: config_compile -complex-mul-dsp=0
+INFO: [HLS 200-1464] Running solution command: config_compile -name_max_length=120
+INFO: [XFORM 203-1161] The maximum of name length is set to 120.
+INFO: [HLS 200-1464] Running solution command: config_cosim -rtl=vhdl
+INFO: [HLS 200-1464] Running solution command: config_export -flow=syn
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=vhdl
+INFO: [HLS 200-1464] Running solution command: config_export -vivado_clock=100
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [XFORM 203-1161] The maximum of name length is set to 120.
+INFO: [HLS 200-1510] Running: create_clock -period 100 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 100ns.
+INFO: [HLS 200-1510] Running: config_compile -name_max_length 120 
+INFO: [XFORM 203-1161] The maximum of name length is set to 120.
+INFO: [HLS 200-1510] Running: config_cosim -rtl vhdl 
+INFO: [HLS 200-1510] Running: config_export -flow syn -format ip_catalog -rtl vhdl -vivado_clock 100 
+INFO: [HLS 200-1510] Running: source ./SVM_speech_30/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite svm_speech_30 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in2 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in6 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in8 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in7 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in5 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in1 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in4 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in3 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in11 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in10 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in12 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in13 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in15 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in16 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in9 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in14 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in21 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in19 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in17 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in24 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in20 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in18 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in22 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in23 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in28 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in29 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in31 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in26 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in32 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in30 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in27 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in25 
+INFO: [HLS 200-1510] Running: export_design -rtl vhdl -format ip_catalog 
+Running Dispatch Server on port: 57235
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+WARNING: [IP_Flow 19-4832] The IP name 'svm_speech_30_fadd_32ns_32ns_32_2_full_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'svm_speech_30_fadd_32ns_32ns_32_2_full_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'svm_speech_30_fadd_32ns_32ns_32_2_full_dsp_1_ip'...
+WARNING: [IP_Flow 19-4832] The IP name 'svm_speech_30_faddfsub_32ns_32ns_32_2_full_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'svm_speech_30_faddfsub_32ns_32ns_32_2_full_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'svm_speech_30_faddfsub_32ns_32ns_32_2_full_dsp_1_ip'...
+WARNING: [IP_Flow 19-4832] The IP name 'svm_speech_30_fcmp_32ns_32ns_1_1_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'svm_speech_30_fcmp_32ns_32ns_1_1_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'svm_speech_30_fcmp_32ns_32ns_1_1_no_dsp_1_ip'...
+WARNING: [IP_Flow 19-4832] The IP name 'svm_speech_30_fdiv_32ns_32ns_32_3_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'svm_speech_30_fdiv_32ns_32ns_32_3_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'svm_speech_30_fdiv_32ns_32ns_32_3_no_dsp_1_ip'...
+WARNING: [IP_Flow 19-4832] The IP name 'svm_speech_30_fmul_32ns_32ns_32_1_max_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'svm_speech_30_fmul_32ns_32ns_32_1_max_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'svm_speech_30_fmul_32ns_32ns_32_1_max_dsp_1_ip'...
+WARNING: [IP_Flow 19-4832] The IP name 'svm_speech_30_fpext_32ns_64_1_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'svm_speech_30_fpext_32ns_64_1_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'svm_speech_30_fpext_32ns_64_1_no_dsp_1_ip'...
+WARNING: [IP_Flow 19-4832] The IP name 'svm_speech_30_fptrunc_64ns_32_1_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'svm_speech_30_fptrunc_64ns_32_1_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'svm_speech_30_fptrunc_64ns_32_1_no_dsp_1_ip'...
+WARNING: [IP_Flow 19-4832] The IP name 'svm_speech_30_sitodp_32ns_64_2_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'svm_speech_30_sitodp_32ns_64_2_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'svm_speech_30_sitodp_32ns_64_2_no_dsp_1_ip'...
+WARNING: [IP_Flow 19-4832] The IP name 'svm_speech_30_sitofp_32ns_32_2_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'svm_speech_30_sitofp_32ns_32_2_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'svm_speech_30_sitofp_32ns_32_2_no_dsp_1_ip'...
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Sat Dec 24 04:43:01 2022...
+INFO: [IMPL 213-8] Starting RTL evaluation using Vivado ...
+
+C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\HLS\SVM_speech_30\solution1\impl\vhdl>C:/Xilinx/Vivado/2022.2/bin/vivado  -mode batch -source run_vivadosyn.tcl   || exit $? 
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source run_vivadosyn.tcl
+# source ./settings.tcl
+## set top_module svm_speech_30
+## set language vhdl
+## set family zynq
+## set device xc7z020
+## set package -clg400
+## set speed -1
+## set clock ap_clk
+## set fsm_ext "off"
+## set add_io_buffers false ;
+# source -notrace ./extraction.tcl
+# set vivado_proj_name project
+# set vivado_proj_dir .
+# set target_device "${device}${package}${speed}"
+# set target_clk_period_ns "100"
+# set target_clk_freq_hz [expr {floor(1000 / $target_clk_period_ns) * 1000000}]
+# set ip_vlnv xilinx.com:hls:svm_speech_30:1.0
+# set ip_repo_path ../ip
+# set bd_design_name bd_0
+# set bd_inst_name hls_inst
+# set bd_props {}
+# set has_synth true
+# set synth_design_args {-directive sdx_optimization_effort_high}
+# set synth_dcp ""
+# set synth_props {}
+# set has_impl false
+# set impl_props {}
+# set report_options [dict create]
+# dict set report_options report_level 2
+# dict set report_options report_max_paths 10
+# dict set report_options stdout_hls_reports 1
+# dict set report_options stdout_vivado_reports 0
+# dict set report_options hls_project SVM_speech_30
+# dict set report_options hls_solution solution1
+# dict set report_options has_synth $has_synth
+# dict set report_options has_impl $has_impl
+# dict set report_options vivado_reportbasename $top_module
+# dict set report_options vivado_reportdir ./report
+# dict set report_options hls_impl_dir ..
+# dict set report_options hls_reportdir ../report/$language
+# dict set report_options target_clk_period $target_clk_period_ns
+# dict set report_options target_device $target_device
+# dict set report_options language $language
+# dict set report_options clock_name $clock
+# dict set report_options error_if_impl_timing_fails false
+# dict set report_options bindmodules {svm_speech_30_svm_speech_30_Pipeline_1_dv_ROM_AUTO_1R svm_speech_30_flow_control_loop_pipe_sequential_init svm_speech_30_svm_speech_30_Pipeline_2_dv1_ROM_AUTO_1R svm_speech_30_svm_speech_30_Pipeline_3_dv2_ROM_AUTO_1R svm_speech_30_svm_speech_30_Pipeline_4_dv3_ROM_AUTO_1R svm_speech_30_svm_speech_30_Pipeline_5_dv4_ROM_AUTO_1R svm_speech_30_svm_speech_30_Pipeline_6_dv5_ROM_AUTO_1R svm_speech_30_svm_speech_30_Pipeline_7_dv6_ROM_AUTO_1R svm_speech_30_svm_speech_30_Pipeline_8_dv7_ROM_AUTO_1R svm_speech_30_svm_speech_30_Pipeline_9_dv8_ROM_AUTO_1R svm_speech_30_svm_speech_30_Pipeline_10_dv9_ROM_AUTO_1R svm_speech_30_fpext_32ns_64_1_no_dsp_1 svm_speech_30_faddfsub_32ns_32ns_32_2_full_dsp_1 svm_speech_30_fadd_32ns_32ns_32_2_full_dsp_1 svm_speech_30_fmul_32ns_32ns_32_1_max_dsp_1 svm_speech_30_fdiv_32ns_32ns_32_3_no_dsp_1 svm_speech_30_sitofp_32ns_32_2_no_dsp_1 svm_speech_30_fptrunc_64ns_32_1_no_dsp_1 svm_speech_30_fcmp_32ns_32ns_1_1_no_dsp_1 svm_speech_30_sitodp_32ns_64_2_no_dsp_1 svm_speech_30_c_CompactClassificationECOC_pre_1_negloss_RAM_AUTO_1R1W svm_speech_30_Mdl_BinaryLearners_RAM_AUTO_1R1W svm_speech_30_control_s_axi svm_speech_30_inputpart1_s_axi svm_speech_30_inputpart2_s_axi svm_speech_30_inputpart3_s_axi svm_speech_30_inputpart4_s_axi}
+# dict set report_options max_module_depth 6
+# create_project $vivado_proj_name $vivado_proj_dir -part $target_device -force
+# set_property target_language $language [current_project]
+# if { ![file exists $ip_repo_path] } {
+#   error "Cannot find packaged HLS IP"
+# }
+# set_property ip_repo_paths [file normalize $ip_repo_path] [current_project]
+# update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+# create_bd_design $bd_design_name
+Wrote  : <C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\HLS\SVM_speech_30\solution1\impl\vhdl\project.srcs\sources_1\bd\bd_0\bd_0.bd> 
+# set cell_inst [create_bd_cell -type ip -vlnv $ip_vlnv $bd_inst_name]
+# if { [llength $bd_props] } { 
+#   set_property -dict $bd_props $cell_inst 
+# }
+# make_bd_pins_external $cell_inst
+# make_bd_intf_pins_external $cell_inst
+# set bd_clk_ports [get_bd_ports -filter {TYPE==clk}]
+# if { [llength $bd_clk_ports] && $target_clk_freq_hz ne "" } { 
+#   set_property CONFIG.FREQ_HZ $target_clk_freq_hz $bd_clk_ports 
+# }
+# foreach bd_port [get_bd_intf_ports] {
+#   set_property name [regsub {_0$} [get_property name $bd_port] {}] $bd_port
+# }
+# foreach bd_port [get_bd_ports -filter {INTF!=TRUE}] {
+#   set_property name [regsub {_0$} [get_property name $bd_port] {}] $bd_port
+# }
+# set s_axi_addr_width_min 32
+# foreach bd_port [get_bd_intf_ports -filter {MODE == "Slave" && VLNV =~ "xilinx.com:interface:aximm_rtl:*"}] {
+#   set bd_port_addr_width [get_property CONFIG.ADDR_WIDTH $bd_port]
+#   if { $bd_port_addr_width < $s_axi_addr_width_min } {
+#     puts "INFO: Updating $bd_port CONFIG.ADDR_WIDTH to $s_axi_addr_width_min"
+#     set_property CONFIG.ADDR_WIDTH $s_axi_addr_width_min $bd_port
+#   }
+# }
+INFO: Updating /s_axi_control CONFIG.ADDR_WIDTH to 32
+INFO: Updating /s_axi_inputpart1 CONFIG.ADDR_WIDTH to 32
+INFO: Updating /s_axi_inputpart2 CONFIG.ADDR_WIDTH to 32
+INFO: Updating /s_axi_inputpart3 CONFIG.ADDR_WIDTH to 32
+INFO: Updating /s_axi_inputpart4 CONFIG.ADDR_WIDTH to 32
+# set_msg_config -id {[BD 41-1265]} -severity {CRITICAL WARNING} -new_severity {INFO}
+# assign_bd_address
+Slave segment '/hls_inst/s_axi_control/Reg' is being assigned into address space '/s_axi_control' at <0x0000_0000 [ 64K ]>.
+Slave segment '/hls_inst/s_axi_inputpart1/Reg' is being assigned into address space '/s_axi_inputpart1' at <0x0000_0000 [ 64K ]>.
+Slave segment '/hls_inst/s_axi_inputpart2/Reg' is being assigned into address space '/s_axi_inputpart2' at <0x0000_0000 [ 64K ]>.
+Slave segment '/hls_inst/s_axi_inputpart3/Reg' is being assigned into address space '/s_axi_inputpart3' at <0x0000_0000 [ 64K ]>.
+Slave segment '/hls_inst/s_axi_inputpart4/Reg' is being assigned into address space '/s_axi_inputpart4' at <0x0000_0000 [ 64K ]>.
+Wrote  : <C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\HLS\SVM_speech_30\solution1\impl\vhdl\project.srcs\sources_1\bd\bd_0\bd_0.bd> 
+VHDL Output written to : C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/synth/bd_0.vhd
+VHDL Output written to : C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/sim/bd_0.vhd
+VHDL Output written to : C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/hdl/bd_0_wrapper.vhd
+# set toprtl [make_wrapper -files [get_files ${bd_design_name}.bd] -top]
+# add_files -norecurse $toprtl
+# set top_inst_name [file root [file tail $toprtl]]
+# puts "Using BD top: $top_inst_name"
+Using BD top: bd_0_wrapper
+# set xdc_files [glob -nocomplain ./*.xdc]
+# if { [llength $xdc_files] } {
+#     add_files -fileset constrs_1 -norecurse $xdc_files
+# }
+# launch_runs synth_1 -scripts_only
+INFO: [BD 41-1662] The design 'bd_0.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/synth/bd_0.vhd
+VHDL Output written to : C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/sim/bd_0.vhd
+VHDL Output written to : C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/hdl/bd_0_wrapper.vhd
+WARNING: [IP_Flow 19-519] IP 'bd_0_hls_inst_0' detected a language mismatch between 'Verilog Simulation Wrapper' and 'VHDL Simulation' output products. Please check with the IP provider to see if this is expected.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hls_inst .
+Exporting to file C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/hw_handoff/bd_0.hwh
+Generated Hardware Definition File C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/synth/bd_0.hwdef
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_0_hls_inst_0
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 686.875 ; gain = 0.000
+# foreach run [get_runs -filter {IS_SYNTHESIS == 1}] {
+#   reset_run [get_runs $run]
+# }
+# set_property XPM_LIBRARIES {XPM_MEMORY XPM_FIFO} [current_project]
+# hls_vivado_reports_setup $report_options
+TIMESTAMP: HLS-REPORT: initialize report directories: 2022-12-24 04:43:21 +0100
+# if { $has_synth || $has_impl } {
+#   # synth properties setting
+#   set_property -name {STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS} -value {-mode out_of_context} -objects [get_runs synth_1]
+#   set ip_inst [get_ips -quiet ${bd_design_name}*${bd_inst_name}*]
+#   if { ![llength $ip_inst] } {
+#       error "Cannot find HLS IP instance: ${bd_design_name}*${bd_inst_name}*"
+#   }
+#   set synth_run [get_runs -filter {IS_SYNTHESIS == 1} ${ip_inst}*]
+#   if { ![llength $synth_run] } {
+#       error "Cannot find synth run for HLS IP: ${ip_inst}*"
+#   }
+# 
+#   if { [llength $synth_design_args] } {
+#       set_property -name {STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS} -value $synth_design_args -objects $synth_run
+#   }
+# 
+#   if { [llength $synth_props] } {
+#     set_property -dict $synth_props $synth_run
+#   }
+# 
+#   # launch run synth
+#   launch_runs synth_1
+#   wait_on_run synth_1
+#   # synth reports
+#   hls_vivado_reports_synth synth_1 $report_options
+#   if { $synth_dcp ne "" } {
+#     file mkdir [file dirname $synth_dcp]
+#     set run_dcp [glob -nocomplain [get_property DIRECTORY $synth_run]/*.dcp]
+#     if { [llength $run_dcp] != 1 } { error "Cannot find single dcp file for run $synth_run" }
+#     file copy -force $run_dcp $synth_dcp
+#   }
+# }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_0_hls_inst_0
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Sat Dec 24 04:43:21 2022] Launched bd_0_hls_inst_0_synth_1...
+Run output will be captured here: C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/project.runs/bd_0_hls_inst_0_synth_1/runme.log
+[Sat Dec 24 04:43:21 2022] Launched synth_1...
+Run output will be captured here: C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/project.runs/synth_1/runme.log
+[Sat Dec 24 04:43:21 2022] Waiting for synth_1 to finish...
+
+
+*** Running vivado
+    with args -log bd_0_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_0_wrapper.tcl
+
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source bd_0_wrapper.tcl -notrace
+INFO: Dispatch client connection id - 57235
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/project.cache/ip 
+Command: synth_design -top bd_0_wrapper -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 24984
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1225.117 ; gain = 406.660
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'bd_0_wrapper' [c:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/hdl/bd_0_wrapper.vhd:107]
+INFO: [Synth 8-3491] module 'bd_0' declared at 'c:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/synth/bd_0.vhd:14' bound to instance 'bd_0_i' of component 'bd_0' [c:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/hdl/bd_0_wrapper.vhd:201]
+INFO: [Synth 8-638] synthesizing module 'bd_0' [c:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/synth/bd_0.vhd:111]
+INFO: [Synth 8-3491] module 'bd_0_hls_inst_0' declared at 'C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/project.runs/synth_1/.Xil/Vivado-11740-IHSANALHAFIZ-LAPTOP/realtime/bd_0_hls_inst_0_stub.vhdl:5' bound to instance 'hls_inst' of component 'bd_0_hls_inst_0' [c:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/synth/bd_0.vhd:479]
+INFO: [Synth 8-638] synthesizing module 'bd_0_hls_inst_0' [C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/project.runs/synth_1/.Xil/Vivado-11740-IHSANALHAFIZ-LAPTOP/realtime/bd_0_hls_inst_0_stub.vhdl:99]
+INFO: [Synth 8-256] done synthesizing module 'bd_0' (0#1) [c:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/synth/bd_0.vhd:111]
+INFO: [Synth 8-256] done synthesizing module 'bd_0_wrapper' (0#1) [c:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/hdl/bd_0_wrapper.vhd:107]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1322.637 ; gain = 504.180
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1322.637 ; gain = 504.180
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1322.637 ; gain = 504.180
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1322.637 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/bd_0_hls_inst_0/bd_0_hls_inst_0_in_context.xdc] for cell 'bd_0_i/hls_inst'
+Finished Parsing XDC File [c:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/bd_0_hls_inst_0/bd_0_hls_inst_0_in_context.xdc] for cell 'bd_0_i/hls_inst'
+Parsing XDC File [C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/svm_speech_30.xdc]
+Finished Parsing XDC File [C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/svm_speech_30.xdc]
+Parsing XDC File [C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/project.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/project.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1341.336 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.029 . Memory (MB): peak = 1341.336 ; gain = 0.000
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:18 . Memory (MB): peak = 1341.336 ; gain = 522.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:18 . Memory (MB): peak = 1341.336 ; gain = 522.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for bd_0_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for bd_0_i/hls_inst. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:05 ; elapsed = 00:00:18 . Memory (MB): peak = 1341.336 ; gain = 522.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:18 . Memory (MB): peak = 1341.336 ; gain = 522.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:20 . Memory (MB): peak = 1341.336 ; gain = 522.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:27 . Memory (MB): peak = 1341.336 ; gain = 522.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:27 . Memory (MB): peak = 1341.336 ; gain = 522.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:27 . Memory (MB): peak = 1341.336 ; gain = 522.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:32 . Memory (MB): peak = 1341.336 ; gain = 522.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:32 . Memory (MB): peak = 1341.336 ; gain = 522.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:32 . Memory (MB): peak = 1341.336 ; gain = 522.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:32 . Memory (MB): peak = 1341.336 ; gain = 522.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:32 . Memory (MB): peak = 1341.336 ; gain = 522.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:32 . Memory (MB): peak = 1341.336 ; gain = 522.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+----------------+----------+
+|      |BlackBox name   |Instances |
++------+----------------+----------+
+|1     |bd_0_hls_inst_0 |         1|
++------+----------------+----------+
+
+Report Cell Usage: 
++------+---------------------+------+
+|      |Cell                 |Count |
++------+---------------------+------+
+|1     |bd_0_hls_inst_0_bbox |     1|
++------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:32 . Memory (MB): peak = 1341.336 ; gain = 522.879
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:07 ; elapsed = 00:00:30 . Memory (MB): peak = 1341.336 ; gain = 504.180
+Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:32 . Memory (MB): peak = 1341.336 ; gain = 522.879
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1341.336 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1351.906 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: fce0667e
+INFO: [Common 17-83] Releasing license: Synthesis
+24 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:38 . Memory (MB): peak = 1351.906 ; gain = 944.133
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/project.runs/synth_1/bd_0_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file bd_0_wrapper_utilization_synth.rpt -pb bd_0_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Dec 24 04:49:47 2022...
+[Sat Dec 24 04:49:49 2022] synth_1 finished
+wait_on_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:06:28 . Memory (MB): peak = 686.875 ; gain = 0.000
+TIMESTAMP: HLS-REPORT: synthesis open_run: 2022-12-24 04:49:49 +0100
+INFO: HLS-REPORT: Opening synthesis design database: open_run synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg400-1
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/bd_0_hls_inst_0.dcp' for cell 'bd_0_i/hls_inst'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 978.023 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2818 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/svm_speech_30.xdc]
+Finished Parsing XDC File [C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/svm_speech_30.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 1168.820 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:17 . Memory (MB): peak = 1168.820 ; gain = 481.945
+TIMESTAMP: HLS-REPORT: synthesis generate_reports_vivado: 2022-12-24 04:50:05 +0100
+INFO: HLS-REPORT: Running report: report_utilization -file ./report/svm_speech_30_utilization_synth.rpt
+INFO: HLS-REPORT: Running report: report_utilization -hierarchical -hierarchical_depth 6 -file ./report/svm_speech_30_utilization_hierarchical_synth.rpt
+INFO: HLS-REPORT: Running report: report_timing_summary -file ./report/svm_speech_30_timing_synth.rpt
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+WARNING: [Timing 38-242] The property HD.CLK_SRC of clock port "ap_clk" is not set. In out-of-context mode, this prevents timing estimation for clock delay/skew
+Resolution: Set the HD.CLK_SRC property of the out-of-context port to the location of the clock buffer instance in the top-level design
+report_timing_summary: Time (s): cpu = 00:00:07 ; elapsed = 00:00:14 . Memory (MB): peak = 1780.895 ; gain = 612.074
+INFO: HLS-REPORT: Running report: report_timing -max_paths 10 -file ./report/svm_speech_30_timing_paths_synth.rpt
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 10 -nworst 1 -delay_type max -sort_by slack.
+INFO: HLS-REPORT: Running report: report_design_analysis -file ./report/svm_speech_30_design_analysis_synth.rpt
+INFO: [Implflow 30-839]  
+INFO: HLS-REPORT: Running report: ::tclapp::xilinx::designutils::report_failfast -detailed_report synth -file ./report/svm_speech_30_failfast_synth.rpt
+ -I- design metrics completed in 2 seconds
+ -I- DONT_TOUCH metric completed in 1 seconds
+ -I- MARK_DEBUG metric completed in 0 seconds
+ -I- utilization metrics completed in 1 seconds
+ -I- control set metrics completed in 0 seconds
+ -I- methodology check metrics completed in 3 seconds
+ -I- average fanout metrics completed in 4 seconds (0 modules)
+ -I- non-FD high fanout nets completed in 3 seconds
+ -I- path budgeting metrics completed in 2 seconds
+#  +-----------------------------------------------------------------------------------------+
+#  | Design Summary                                                                          |
+#  | design_1                                                                                |
+#  | xc7z020clg400-1                                                                         |
+#  +-----------------------------------------------------------+-----------+--------+--------+
+#  | Criteria                                                  | Guideline | Actual | Status |
+#  +-----------------------------------------------------------+-----------+--------+--------+
+#  | LUT                                                       | 70%       | 42.86% | OK     |
+#  | FD                                                        | 50%       | 8.36%  | OK     |
+#  | LUTRAM+SRL                                                | 25%       | 0.00%  | OK     |
+#  | MUXF7                                                     | 15%       | 0.09%  | OK     |
+#  | DSP                                                       | 80%       | 14.09% | OK     |
+#  | RAMB/FIFO                                                 | 80%       | 9.29%  | OK     |
+#  | DSP+RAMB+URAM (Avg)                                       | 70%       | 11.69% | OK     |
+#  | BUFGCE* + BUFGCTRL                                        | 24        | 0      | OK     |
+#  | DONT_TOUCH (cells/nets)                                   | 0         | 0      | OK     |
+#  | MARK_DEBUG (nets)                                         | 0         | 0      | OK     |
+#  | Control Sets                                              | 998       | 171    | OK     |
+#  | Average Fanout for modules > 100k cells                   | 4         | 0      | OK     |
+#  | Non-FD high fanout nets > 10k loads                       | 0         | 0      | OK     |
+#  +-----------------------------------------------------------+-----------+--------+--------+
+#  | TIMING-6 (No common primary clock between related clocks) | 0         | 0      | OK     |
+#  | TIMING-7 (No common node between related clocks)          | 0         | 0      | OK     |
+#  | TIMING-8 (No common period between related clocks)        | 0         | 0      | OK     |
+#  | TIMING-14 (LUT on the clock tree)                         | 0         | 0      | OK     |
+#  | TIMING-35 (No common node in paths with the same clock)   | 0         | 0      | OK     |
+#  +-----------------------------------------------------------+-----------+--------+--------+
+#  | Number of paths above max LUT budgeting (0.575ns)         | 0         | 0      | OK     |
+#  | Number of paths above max Net budgeting (0.403ns)         | 0         | 0      | OK     |
+#  +-----------------------------------------------------------+-----------+--------+--------+
+ -I- Generated file C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/report/svm_speech_30_failfast_synth.rpt
+ -I- Number of criteria to review: 0
+ -I- This report should be run before placing the design and uses conservative guidelines beyond which runtime and timing closure will likely be more challenging
+ -I- report_failfast completed in 16 seconds
+TIMESTAMP: HLS-REPORT: synthesis gen_data_dict_vivado: 2022-12-24 04:50:39 +0100
+TIMESTAMP: HLS-REPORT: synth extract_util_hier: 2022-12-24 04:50:39 +0100
+TIMESTAMP: HLS-REPORT: synth get_cell_hier_data: 2022-12-24 04:50:39 +0100
+TIMESTAMP: HLS-REPORT: synth get_timing_paths: 2022-12-24 04:50:39 +0100
+TIMESTAMP: HLS-REPORT: synth process timing paths: 2022-12-24 04:50:39 +0100
+TIMESTAMP: HLS-REPORT: synth get_all_vv_rpt_files: 2022-12-24 04:50:40 +0100
+TIMESTAMP: HLS-REPORT: synthesis write_reports_vivado: 2022-12-24 04:50:40 +0100
+HLS EXTRACTION: synth area_totals:  0 53200 106400 220 280 0 0
+HLS EXTRACTION: synth area_current: 0 22802 8900 31 26 0 0 0 0 0
+HLS EXTRACTION: synth resources_dict: AVAIL_LUT 53200 LUT 22802 AVAIL_FF 106400 FF 8900 AVAIL_DSP 220 DSP 31 AVAIL_BRAM 280 BRAM 26 AVAIL_URAM 0 URAM 0 LATCH 0 SRL 0 AVAIL_CLB 0 CLB 0
+INFO: HLS-REPORT: generated C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/vhdl/report/vivado_syn.xml
+INFO: HLS-REPORT: generated C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/impl/report/vhdl/svm_speech_30_export.rpt
+
+
+Implementation tool: Xilinx Vivado v.2022.2
+Project:             SVM_speech_30
+Solution:            solution1
+Device target:       xc7z020-clg400-1
+Report date:         Sat Dec 24 04:50:41 +0100 2022
+
+#=== Post-Synthesis Resource usage ===
+SLICE:            0
+LUT:          22802
+FF:            8900
+DSP:             31
+BRAM:            26
+URAM:             0
+LATCH:            0
+SRL:              0
+CLB:              0
+
+#=== Final timing ===
+CP required:                     100.000
+CP achieved post-synthesis:      56.526
+Timing met
+
+TIMESTAMP: HLS-REPORT: synthesis end: 2022-12-24 04:50:41 +0100
+# if { $has_impl } {
+#   # launch run impl
+#   if { [llength $impl_props] } {
+#     set_property -dict $impl_props [get_runs impl_1]
+#   }
+#   launch_runs impl_1
+#   wait_on_run impl_1
+#   # impl reports
+#   hls_vivado_reports_impl impl_1 $report_options
+# }
+# hls_vivado_reports_finalize $report_options
+TIMESTAMP: HLS-REPORT: all reports complete: 2022-12-24 04:50:41 +0100
+INFO: [Common 17-206] Exiting Vivado at Sat Dec 24 04:50:41 2022...
+INFO: [HLS 200-802] Generated output file SVM_speech_30/solution1/impl/export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 500.801 seconds; current allocated memory: 32.359 MB.
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 512.59 seconds; peak allocated memory: 122.445 MB.

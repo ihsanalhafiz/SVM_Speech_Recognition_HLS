@@ -1,0 +1,103 @@
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:10:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart1 port=in7_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart1 port=in7
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:11:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart1 port=in5_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart1 port=in5
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:12:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart1 port=in1_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart1 port=in1
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:13:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart1 port=in4_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart1 port=in4
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:14:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart1 port=in3_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart1 port=in3
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:15:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart2 port=in11_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart2 port=in11
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:16:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart2 port=in10_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart2 port=in10
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:17:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart2 port=in12_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart2 port=in12
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:18:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart2 port=in13_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart2 port=in13
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:19:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart2 port=in15_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart2 port=in15
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:20:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart2 port=in16_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart2 port=in16
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:21:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart2 port=in9_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart2 port=in9
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:22:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart2 port=in14_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart2 port=in14
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:23:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart3 port=in21_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart3 port=in21
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:24:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart3 port=in19_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart3 port=in19
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:25:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart3 port=in17_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart3 port=in17
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:26:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart3 port=in24_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart3 port=in24
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:27:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart3 port=in20_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart3 port=in20
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:28:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart3 port=in18_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart3 port=in18
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:29:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart3 port=in22_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart3 port=in22
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:30:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart3 port=in23_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart3 port=in23
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:31:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart4 port=in28_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart4 port=in28
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:32:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart4 port=in29_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart4 port=in29
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:33:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart4 port=in31_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart4 port=in31
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:34:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart4 port=in26_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart4 port=in26
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:35:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart4 port=in32_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart4 port=in32
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:36:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart4 port=in30_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart4 port=in30
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:37:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart4 port=in27_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart4 port=in27
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:38:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart4 port=in25_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart4 port=in25
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/csynth.tcl:47:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=name=svm_speech_30_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE TOP name=svm_speech_30
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:6:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite port=return_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite port=return
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:7:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart1 port=in2_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart1 port=in2
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:8:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart1 port=in6_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart1 port=in6
+        ^
+C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:9:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=svm_speech_30_XLX_SEP_ PragmaOptions=s_axilite bundle=inputpart1 port=in8_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE s_axilite bundle=inputpart1 port=in8
+        ^
+34 warnings generated.

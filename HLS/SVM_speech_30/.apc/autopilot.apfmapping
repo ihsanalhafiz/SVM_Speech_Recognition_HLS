@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="CompactClassificationECOC.c" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\CompactClassificationECOC.c"/>
+    <originFiles name="CompactClassificationECOC.h" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\CompactClassificationECOC.h"/>
+    <originFiles name="MW_target_hardware_resources.h" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\MW_target_hardware_resources.h"/>
+    <originFiles name="_clang-format" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\_clang-format"/>
+    <originFiles name="buildInfo.mat" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\buildInfo.mat"/>
+    <originFiles name="codeInfo.mat" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\codeInfo.mat"/>
+    <originFiles name="codedescriptor.dmr" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\codedescriptor.dmr"/>
+    <originFiles name="codertarget_assembly_flags.mk" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\codertarget_assembly_flags.mk"/>
+    <originFiles name="compileInfo.mat" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\compileInfo.mat"/>
+    <originFiles name="gcGuiReport.mat" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\gcGuiReport.mat"/>
+    <originFiles name="rtGetInf.c" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\rtGetInf.c"/>
+    <originFiles name="rtGetInf.h" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\rtGetInf.h"/>
+    <originFiles name="rtGetNaN.c" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\rtGetNaN.c"/>
+    <originFiles name="rtGetNaN.h" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\rtGetNaN.h"/>
+    <originFiles name="rt_nonfinite.c" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\rt_nonfinite.c"/>
+    <originFiles name="rt_nonfinite.h" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\rt_nonfinite.h"/>
+    <originFiles name="rtw_proj.tmw" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\rtw_proj.tmw"/>
+    <originFiles name="rtwtypes.h" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\rtwtypes.h"/>
+    <originFiles name="svm_speech_30.c" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\svm_speech_30.c"/>
+    <originFiles name="svm_speech_30.h" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\svm_speech_30.h"/>
+    <originFiles name="svm_speech_30_data.c" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\svm_speech_30_data.c"/>
+    <originFiles name="svm_speech_30_data.h" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\svm_speech_30_data.h"/>
+    <originFiles name="svm_speech_30_initialize.c" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\svm_speech_30_initialize.c"/>
+    <originFiles name="svm_speech_30_initialize.h" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\svm_speech_30_initialize.h"/>
+    <originFiles name="svm_speech_30_internal_types.h" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\svm_speech_30_internal_types.h"/>
+    <originFiles name="svm_speech_30_rtw.bat" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\svm_speech_30_rtw.bat"/>
+    <originFiles name="svm_speech_30_rtw.mk" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\svm_speech_30_rtw.mk"/>
+    <originFiles name="svm_speech_30_terminate.c" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\svm_speech_30_terminate.c"/>
+    <originFiles name="svm_speech_30_terminate.h" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\svm_speech_30_terminate.h"/>
+    <originFiles name="svm_speech_30_types.h" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\svm_speech_30_types.h"/>
+  </source>
+  <testbench>
+    <originFiles name="main.c" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\main.c"/>
+    <originFiles name="main.h" path="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\C_for_HLS\main.h"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

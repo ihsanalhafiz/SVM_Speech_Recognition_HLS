@@ -1,0 +1,270 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'svm_speech_30'" level="0">
+<item name = "Date">Sat Dec 24 04:25:26 2022
+</item>
+<item name = "Version">2022.2 (Build 3670227 on Oct 13 2022)</item>
+<item name = "Project">SVM_speech_30</item>
+<item name = "Solution">solution1 (Vivado IP Flow Target)</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020-clg400-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">0.10 us, 72.710 ns, 27.00 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">612, 628, 61.200 us, 62.800 us, 613, 629, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_svm_speech_30_Pipeline_1_fu_1419">svm_speech_30_Pipeline_1, 34, 34, 3.400 us, 3.400 us, 34, 34, no</column>
+<column name="grp_svm_speech_30_Pipeline_2_fu_1426">svm_speech_30_Pipeline_2, 34, 34, 3.400 us, 3.400 us, 34, 34, no</column>
+<column name="grp_svm_speech_30_Pipeline_3_fu_1433">svm_speech_30_Pipeline_3, 34, 34, 3.400 us, 3.400 us, 34, 34, no</column>
+<column name="grp_svm_speech_30_Pipeline_4_fu_1440">svm_speech_30_Pipeline_4, 34, 34, 3.400 us, 3.400 us, 34, 34, no</column>
+<column name="grp_svm_speech_30_Pipeline_5_fu_1447">svm_speech_30_Pipeline_5, 34, 34, 3.400 us, 3.400 us, 34, 34, no</column>
+<column name="grp_svm_speech_30_Pipeline_6_fu_1454">svm_speech_30_Pipeline_6, 34, 34, 3.400 us, 3.400 us, 34, 34, no</column>
+<column name="grp_svm_speech_30_Pipeline_7_fu_1461">svm_speech_30_Pipeline_7, 34, 34, 3.400 us, 3.400 us, 34, 34, no</column>
+<column name="grp_svm_speech_30_Pipeline_8_fu_1468">svm_speech_30_Pipeline_8, 34, 34, 3.400 us, 3.400 us, 34, 34, no</column>
+<column name="grp_svm_speech_30_Pipeline_9_fu_1475">svm_speech_30_Pipeline_9, 34, 34, 3.400 us, 3.400 us, 34, 34, no</column>
+<column name="grp_svm_speech_30_Pipeline_10_fu_1482">svm_speech_30_Pipeline_10, 34, 34, 3.400 us, 3.400 us, 34, 34, no</column>
+<column name="grp_c_CompactClassificationECOC_pre_1_fu_1489">c_CompactClassificationECOC_pre_1, 181, 197, 18.100 us, 19.700 us, 181, 197, no</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="DSP">-, -, -, -, -</column>
+<column name="Expression">-, -, -, -, -</column>
+<column name="FIFO">-, -, -, -, -</column>
+<column name="Instance">20, 31, 7888, 20687, 0</column>
+<column name="Memory">4, -, 0, 0, 0</column>
+<column name="Multiplexer">-, -, -, 1527, -</column>
+<column name="Register">-, -, 1127, -, -</column>
+<specialColumn name="Available">280, 220, 106400, 53200, 0</specialColumn>
+<specialColumn name="Utilization (%)">8, 14, 8, 41, 0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="grp_c_CompactClassificationECOC_pre_1_fu_1489">c_CompactClassificationECOC_pre_1, 0, 31, 6343, 17554, 0</column>
+<column name="control_s_axi_U">control_s_axi, 0, 0, 68, 104, 0</column>
+<column name="fptrunc_64ns_32_1_no_dsp_1_U105">fptrunc_64ns_32_1_no_dsp_1, 0, 0, 0, 0, 0</column>
+<column name="inputpart1_s_axi_U">inputpart1_s_axi, 0, 0, 334, 552, 0</column>
+<column name="inputpart2_s_axi_U">inputpart2_s_axi, 0, 0, 334, 552, 0</column>
+<column name="inputpart3_s_axi_U">inputpart3_s_axi, 0, 0, 334, 552, 0</column>
+<column name="inputpart4_s_axi_U">inputpart4_s_axi, 0, 0, 334, 552, 0</column>
+<column name="grp_svm_speech_30_Pipeline_1_fu_1419">svm_speech_30_Pipeline_1, 2, 0, 15, 71, 0</column>
+<column name="grp_svm_speech_30_Pipeline_10_fu_1482">svm_speech_30_Pipeline_10, 2, 0, 14, 83, 0</column>
+<column name="grp_svm_speech_30_Pipeline_2_fu_1426">svm_speech_30_Pipeline_2, 2, 0, 14, 84, 0</column>
+<column name="grp_svm_speech_30_Pipeline_3_fu_1433">svm_speech_30_Pipeline_3, 2, 0, 14, 84, 0</column>
+<column name="grp_svm_speech_30_Pipeline_4_fu_1440">svm_speech_30_Pipeline_4, 2, 0, 14, 83, 0</column>
+<column name="grp_svm_speech_30_Pipeline_5_fu_1447">svm_speech_30_Pipeline_5, 2, 0, 14, 83, 0</column>
+<column name="grp_svm_speech_30_Pipeline_6_fu_1454">svm_speech_30_Pipeline_6, 2, 0, 14, 84, 0</column>
+<column name="grp_svm_speech_30_Pipeline_7_fu_1461">svm_speech_30_Pipeline_7, 2, 0, 14, 83, 0</column>
+<column name="grp_svm_speech_30_Pipeline_8_fu_1468">svm_speech_30_Pipeline_8, 2, 0, 14, 83, 0</column>
+<column name="grp_svm_speech_30_Pipeline_9_fu_1475">svm_speech_30_Pipeline_9, 2, 0, 14, 83, 0</column>
+</table>
+</item>
+<item name = "DSP"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="10">Memory, Module, BRAM_18K, FF, LUT, URAM, Words, Bits, Banks, W*Bits*Banks</keys>
+<column name="Mdl_BinaryLearners_U">Mdl_BinaryLearners_RAM_AUTO_1R1W, 4, 0, 0, 0, 430, 64, 1, 27520</column>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="Mdl_BinaryLearners_address0">377, 77, 9, 693</column>
+<column name="Mdl_BinaryLearners_address1">297, 67, 9, 603</column>
+<column name="Mdl_BinaryLearners_ce0">65, 13, 1, 13</column>
+<column name="Mdl_BinaryLearners_ce1">14, 3, 1, 3</column>
+<column name="Mdl_BinaryLearners_d0">130, 29, 64, 1856</column>
+<column name="Mdl_BinaryLearners_d1">81, 17, 64, 1088</column>
+<column name="Mdl_BinaryLearners_we0">65, 16, 8, 128</column>
+<column name="Mdl_BinaryLearners_we1">31, 6, 8, 48</column>
+<column name="ap_NS_fsm">467, 93, 1, 93</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="ap_CS_fsm">92, 0, 92, 0</column>
+<column name="grp_c_CompactClassificationECOC_pre_1_fu_1489_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_svm_speech_30_Pipeline_10_fu_1482_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_svm_speech_30_Pipeline_1_fu_1419_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_svm_speech_30_Pipeline_2_fu_1426_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_svm_speech_30_Pipeline_3_fu_1433_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_svm_speech_30_Pipeline_4_fu_1440_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_svm_speech_30_Pipeline_5_fu_1447_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_svm_speech_30_Pipeline_6_fu_1454_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_svm_speech_30_Pipeline_7_fu_1461_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_svm_speech_30_Pipeline_8_fu_1468_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_svm_speech_30_Pipeline_9_fu_1475_ap_start_reg">1, 0, 1, 0</column>
+<column name="in10_read_reg_1772">32, 0, 32, 0</column>
+<column name="in11_read_reg_1767">32, 0, 32, 0</column>
+<column name="in12_read_reg_1762">32, 0, 32, 0</column>
+<column name="in13_read_reg_1757">32, 0, 32, 0</column>
+<column name="in14_read_reg_1752">32, 0, 32, 0</column>
+<column name="in15_read_reg_1747">32, 0, 32, 0</column>
+<column name="in16_read_reg_1742">32, 0, 32, 0</column>
+<column name="in17_read_reg_1737">32, 0, 32, 0</column>
+<column name="in18_read_reg_1732">32, 0, 32, 0</column>
+<column name="in19_read_reg_1727">32, 0, 32, 0</column>
+<column name="in1_read_reg_1817">32, 0, 32, 0</column>
+<column name="in20_read_reg_1722">32, 0, 32, 0</column>
+<column name="in21_read_reg_1717">32, 0, 32, 0</column>
+<column name="in22_read_reg_1712">32, 0, 32, 0</column>
+<column name="in23_read_reg_1707">32, 0, 32, 0</column>
+<column name="in24_read_reg_1702">32, 0, 32, 0</column>
+<column name="in25_read_reg_1697">32, 0, 32, 0</column>
+<column name="in26_read_reg_1692">32, 0, 32, 0</column>
+<column name="in27_read_reg_1687">32, 0, 32, 0</column>
+<column name="in28_read_reg_1682">32, 0, 32, 0</column>
+<column name="in29_read_reg_1677">32, 0, 32, 0</column>
+<column name="in2_read_reg_1812">32, 0, 32, 0</column>
+<column name="in30_read_reg_1672">32, 0, 32, 0</column>
+<column name="in31_read_reg_1667">32, 0, 32, 0</column>
+<column name="in32_read_reg_1662">32, 0, 32, 0</column>
+<column name="in3_read_reg_1807">32, 0, 32, 0</column>
+<column name="in4_read_reg_1802">32, 0, 32, 0</column>
+<column name="in5_read_reg_1797">32, 0, 32, 0</column>
+<column name="in6_read_reg_1792">32, 0, 32, 0</column>
+<column name="in7_read_reg_1787">32, 0, 32, 0</column>
+<column name="in8_read_reg_1782">32, 0, 32, 0</column>
+<column name="in9_read_reg_1777">32, 0, 32, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="s_axi_control_AWVALID">in, 1, s_axi, control, return value</column>
+<column name="s_axi_control_AWREADY">out, 1, s_axi, control, return value</column>
+<column name="s_axi_control_AWADDR">in, 5, s_axi, control, return value</column>
+<column name="s_axi_control_WVALID">in, 1, s_axi, control, return value</column>
+<column name="s_axi_control_WREADY">out, 1, s_axi, control, return value</column>
+<column name="s_axi_control_WDATA">in, 32, s_axi, control, return value</column>
+<column name="s_axi_control_WSTRB">in, 4, s_axi, control, return value</column>
+<column name="s_axi_control_ARVALID">in, 1, s_axi, control, return value</column>
+<column name="s_axi_control_ARREADY">out, 1, s_axi, control, return value</column>
+<column name="s_axi_control_ARADDR">in, 5, s_axi, control, return value</column>
+<column name="s_axi_control_RVALID">out, 1, s_axi, control, return value</column>
+<column name="s_axi_control_RREADY">in, 1, s_axi, control, return value</column>
+<column name="s_axi_control_RDATA">out, 32, s_axi, control, return value</column>
+<column name="s_axi_control_RRESP">out, 2, s_axi, control, return value</column>
+<column name="s_axi_control_BVALID">out, 1, s_axi, control, return value</column>
+<column name="s_axi_control_BREADY">in, 1, s_axi, control, return value</column>
+<column name="s_axi_control_BRESP">out, 2, s_axi, control, return value</column>
+<column name="s_axi_inputpart1_AWVALID">in, 1, s_axi, inputpart1, scalar</column>
+<column name="s_axi_inputpart1_AWREADY">out, 1, s_axi, inputpart1, scalar</column>
+<column name="s_axi_inputpart1_AWADDR">in, 7, s_axi, inputpart1, scalar</column>
+<column name="s_axi_inputpart1_WVALID">in, 1, s_axi, inputpart1, scalar</column>
+<column name="s_axi_inputpart1_WREADY">out, 1, s_axi, inputpart1, scalar</column>
+<column name="s_axi_inputpart1_WDATA">in, 32, s_axi, inputpart1, scalar</column>
+<column name="s_axi_inputpart1_WSTRB">in, 4, s_axi, inputpart1, scalar</column>
+<column name="s_axi_inputpart1_ARVALID">in, 1, s_axi, inputpart1, scalar</column>
+<column name="s_axi_inputpart1_ARREADY">out, 1, s_axi, inputpart1, scalar</column>
+<column name="s_axi_inputpart1_ARADDR">in, 7, s_axi, inputpart1, scalar</column>
+<column name="s_axi_inputpart1_RVALID">out, 1, s_axi, inputpart1, scalar</column>
+<column name="s_axi_inputpart1_RREADY">in, 1, s_axi, inputpart1, scalar</column>
+<column name="s_axi_inputpart1_RDATA">out, 32, s_axi, inputpart1, scalar</column>
+<column name="s_axi_inputpart1_RRESP">out, 2, s_axi, inputpart1, scalar</column>
+<column name="s_axi_inputpart1_BVALID">out, 1, s_axi, inputpart1, scalar</column>
+<column name="s_axi_inputpart1_BREADY">in, 1, s_axi, inputpart1, scalar</column>
+<column name="s_axi_inputpart1_BRESP">out, 2, s_axi, inputpart1, scalar</column>
+<column name="s_axi_inputpart2_AWVALID">in, 1, s_axi, inputpart2, scalar</column>
+<column name="s_axi_inputpart2_AWREADY">out, 1, s_axi, inputpart2, scalar</column>
+<column name="s_axi_inputpart2_AWADDR">in, 7, s_axi, inputpart2, scalar</column>
+<column name="s_axi_inputpart2_WVALID">in, 1, s_axi, inputpart2, scalar</column>
+<column name="s_axi_inputpart2_WREADY">out, 1, s_axi, inputpart2, scalar</column>
+<column name="s_axi_inputpart2_WDATA">in, 32, s_axi, inputpart2, scalar</column>
+<column name="s_axi_inputpart2_WSTRB">in, 4, s_axi, inputpart2, scalar</column>
+<column name="s_axi_inputpart2_ARVALID">in, 1, s_axi, inputpart2, scalar</column>
+<column name="s_axi_inputpart2_ARREADY">out, 1, s_axi, inputpart2, scalar</column>
+<column name="s_axi_inputpart2_ARADDR">in, 7, s_axi, inputpart2, scalar</column>
+<column name="s_axi_inputpart2_RVALID">out, 1, s_axi, inputpart2, scalar</column>
+<column name="s_axi_inputpart2_RREADY">in, 1, s_axi, inputpart2, scalar</column>
+<column name="s_axi_inputpart2_RDATA">out, 32, s_axi, inputpart2, scalar</column>
+<column name="s_axi_inputpart2_RRESP">out, 2, s_axi, inputpart2, scalar</column>
+<column name="s_axi_inputpart2_BVALID">out, 1, s_axi, inputpart2, scalar</column>
+<column name="s_axi_inputpart2_BREADY">in, 1, s_axi, inputpart2, scalar</column>
+<column name="s_axi_inputpart2_BRESP">out, 2, s_axi, inputpart2, scalar</column>
+<column name="s_axi_inputpart3_AWVALID">in, 1, s_axi, inputpart3, scalar</column>
+<column name="s_axi_inputpart3_AWREADY">out, 1, s_axi, inputpart3, scalar</column>
+<column name="s_axi_inputpart3_AWADDR">in, 7, s_axi, inputpart3, scalar</column>
+<column name="s_axi_inputpart3_WVALID">in, 1, s_axi, inputpart3, scalar</column>
+<column name="s_axi_inputpart3_WREADY">out, 1, s_axi, inputpart3, scalar</column>
+<column name="s_axi_inputpart3_WDATA">in, 32, s_axi, inputpart3, scalar</column>
+<column name="s_axi_inputpart3_WSTRB">in, 4, s_axi, inputpart3, scalar</column>
+<column name="s_axi_inputpart3_ARVALID">in, 1, s_axi, inputpart3, scalar</column>
+<column name="s_axi_inputpart3_ARREADY">out, 1, s_axi, inputpart3, scalar</column>
+<column name="s_axi_inputpart3_ARADDR">in, 7, s_axi, inputpart3, scalar</column>
+<column name="s_axi_inputpart3_RVALID">out, 1, s_axi, inputpart3, scalar</column>
+<column name="s_axi_inputpart3_RREADY">in, 1, s_axi, inputpart3, scalar</column>
+<column name="s_axi_inputpart3_RDATA">out, 32, s_axi, inputpart3, scalar</column>
+<column name="s_axi_inputpart3_RRESP">out, 2, s_axi, inputpart3, scalar</column>
+<column name="s_axi_inputpart3_BVALID">out, 1, s_axi, inputpart3, scalar</column>
+<column name="s_axi_inputpart3_BREADY">in, 1, s_axi, inputpart3, scalar</column>
+<column name="s_axi_inputpart3_BRESP">out, 2, s_axi, inputpart3, scalar</column>
+<column name="s_axi_inputpart4_AWVALID">in, 1, s_axi, inputpart4, scalar</column>
+<column name="s_axi_inputpart4_AWREADY">out, 1, s_axi, inputpart4, scalar</column>
+<column name="s_axi_inputpart4_AWADDR">in, 7, s_axi, inputpart4, scalar</column>
+<column name="s_axi_inputpart4_WVALID">in, 1, s_axi, inputpart4, scalar</column>
+<column name="s_axi_inputpart4_WREADY">out, 1, s_axi, inputpart4, scalar</column>
+<column name="s_axi_inputpart4_WDATA">in, 32, s_axi, inputpart4, scalar</column>
+<column name="s_axi_inputpart4_WSTRB">in, 4, s_axi, inputpart4, scalar</column>
+<column name="s_axi_inputpart4_ARVALID">in, 1, s_axi, inputpart4, scalar</column>
+<column name="s_axi_inputpart4_ARREADY">out, 1, s_axi, inputpart4, scalar</column>
+<column name="s_axi_inputpart4_ARADDR">in, 7, s_axi, inputpart4, scalar</column>
+<column name="s_axi_inputpart4_RVALID">out, 1, s_axi, inputpart4, scalar</column>
+<column name="s_axi_inputpart4_RREADY">in, 1, s_axi, inputpart4, scalar</column>
+<column name="s_axi_inputpart4_RDATA">out, 32, s_axi, inputpart4, scalar</column>
+<column name="s_axi_inputpart4_RRESP">out, 2, s_axi, inputpart4, scalar</column>
+<column name="s_axi_inputpart4_BVALID">out, 1, s_axi, inputpart4, scalar</column>
+<column name="s_axi_inputpart4_BREADY">in, 1, s_axi, inputpart4, scalar</column>
+<column name="s_axi_inputpart4_BRESP">out, 2, s_axi, inputpart4, scalar</column>
+<column name="ap_clk">in, 1, ap_ctrl_hs, svm_speech_30, return value</column>
+<column name="ap_rst_n">in, 1, ap_ctrl_hs, svm_speech_30, return value</column>
+<column name="interrupt">out, 1, ap_ctrl_hs, svm_speech_30, return value</column>
+</table>
+</item>
+</section>
+</profile>

@@ -1,0 +1,684 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 100ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_compile -name_max_length=120
+INFO: [XFORM 203-1161] The maximum of name length is set to 120.
+INFO: [HLS 200-1464] Running solution command: config_cosim -rtl=vhdl
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=vhdl
+INFO: [HLS 200-1464] Running solution command: config_export -vivado_clock=100
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [XFORM 203-1161] The maximum of name length is set to 120.
+INFO: [HLS 200-1510] Running: create_clock -period 100 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 100ns.
+INFO: [HLS 200-1510] Running: config_compile -name_max_length 120 
+INFO: [XFORM 203-1161] The maximum of name length is set to 120.
+INFO: [HLS 200-1510] Running: config_cosim -rtl vhdl 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl vhdl -vivado_clock 100 
+INFO: [HLS 200-1510] Running: source ./SVM_speech_30/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite svm_speech_30 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in2 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in6 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in8 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in7 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in5 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in1 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in4 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in3 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in11 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in10 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in12 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in13 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in15 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in16 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in9 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in14 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in21 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in19 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in17 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in24 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in20 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in18 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in22 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in23 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in28 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in29 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in31 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in26 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in32 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in30 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in27 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in25 
+INFO: [HLS 200-1510] Running: csynth_design 
+WARNING: [HLS 200-40] Skipped source file 'svm_speech_30_rtw.mk'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+WARNING: [HLS 200-40] Skipped source file 'svm_speech_30_rtw.bat'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+WARNING: [HLS 200-40] Skipped source file 'rtw_proj.tmw'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+WARNING: [HLS 200-40] Skipped source file 'gcGuiReport.mat'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+WARNING: [HLS 200-40] Skipped source file 'compileInfo.mat'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+WARNING: [HLS 200-40] Skipped source file 'codertarget_assembly_flags.mk'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+WARNING: [HLS 200-40] Skipped source file 'codedescriptor.dmr'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+WARNING: [HLS 200-40] Skipped source file 'codeInfo.mat'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+WARNING: [HLS 200-40] Skipped source file 'buildInfo.mat'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+WARNING: [HLS 200-40] Skipped source file '_clang-format'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.152 seconds; current allocated memory: 90.543 MB.
+INFO: [HLS 200-10] Analyzing design file '../C_for_HLS/svm_speech_30_terminate.c' ... 
+INFO: [HLS 200-10] Analyzing design file '../C_for_HLS/svm_speech_30_initialize.c' ... 
+INFO: [HLS 200-10] Analyzing design file '../C_for_HLS/svm_speech_30_data.c' ... 
+INFO: [HLS 200-10] Analyzing design file '../C_for_HLS/svm_speech_30.c' ... 
+INFO: [HLS 200-10] Analyzing design file '../C_for_HLS/rt_nonfinite.c' ... 
+INFO: [HLS 200-10] Analyzing design file '../C_for_HLS/rtGetNaN.c' ... 
+INFO: [HLS 200-10] Analyzing design file '../C_for_HLS/rtGetInf.c' ... 
+INFO: [HLS 200-10] Analyzing design file '../C_for_HLS/CompactClassificationECOC.c' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 9.736 seconds; current allocated memory: 94.852 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-131] Inlining function 'ssdm_int<64, false>::ssdm_int(unsigned long)' into 'ap_int_base<64, false>::ap_int_base(unsigned long long)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:219:72)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<64, false>::ap_int_base(unsigned long long)' into 'ap_uint<64>::ap_uint(unsigned long long)'
+INFO: [HLS 214-131] Inlining function 'ap_bit_ref<64, false>::ap_bit_ref(ap_int_base<64, false>*, int)' into 'ap_int_base<64, false>::operator[](int)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:1129:30)
+INFO: [HLS 214-131] Inlining function 'ap_bit_ref<1, false>::ap_bit_ref(ap_int_base<1, false>*, int)' into 'ap_int_base<1, false>::operator[](int)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:1129:30)
+INFO: [HLS 214-131] Inlining function 'ap_bit_ref<64, false>::operator bool() const' into 'ap_bit_ref<1, false>& ap_bit_ref<1, false>::operator=<64, false>(ap_bit_ref<64, false> const&)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_ref.h:845:38)
+INFO: [HLS 214-131] Inlining function 'ap_bit_ref<1, false>::operator=(unsigned long long)' into 'ap_bit_ref<1, false>& ap_bit_ref<1, false>::operator=<64, false>(ap_bit_ref<64, false> const&)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_ref.h:845:12)
+INFO: [HLS 214-131] Inlining function 'ap_range_ref<64, false>::ap_range_ref(ap_int_base<64, false>*, int, int)' into 'ap_int_base<64, false>::range(int, int)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:1048:12)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<64, false>::range(int, int)' into 'ap_int_base<64, false>::operator()(int, int)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:1085:18)
+INFO: [HLS 214-131] Inlining function 'ap_range_ref<11, false>::ap_range_ref(ap_int_base<11, false>*, int, int)' into 'ap_int_base<11, false>::range(int, int)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:1048:12)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<11, false>::range(int, int)' into 'ap_int_base<11, false>::operator()(int, int)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:1085:18)
+INFO: [HLS 214-131] Inlining function 'ap_range_ref<64, false>::get() const' into 'ap_int_base<64, false>::ap_int_base<64, false>(ap_range_ref<64, false> const&)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:358:20)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi11ELb0EEC2EDq11_j' into 'ap_int_base<11, false>::ap_int_base<64, false>(ap_int_base<64, false> const&)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<11, false>::ap_int_base<64, false>(ap_int_base<64, false> const&)' into 'ap_range_ref<11, false>& ap_range_ref<11, false>::operator=<64, false>(ap_int_base<64, false> const&)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_ref.h:367:31)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<64, false>::ap_int_base<64, false>(ap_range_ref<64, false> const&)' into 'ap_range_ref<11, false>& ap_range_ref<11, false>::operator=<64, false>(ap_range_ref<64, false> const&)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_ref.h:382:22)
+INFO: [HLS 214-131] Inlining function 'ap_range_ref<11, false>& ap_range_ref<11, false>::operator=<64, false>(ap_int_base<64, false> const&)' into 'ap_range_ref<11, false>& ap_range_ref<11, false>::operator=<64, false>(ap_range_ref<64, false> const&)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_ref.h:382:12)
+INFO: [HLS 214-131] Inlining function 'ap_range_ref<52, false>::ap_range_ref(ap_int_base<52, false>*, int, int)' into 'ap_int_base<52, false>::range(int, int)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:1048:12)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<52, false>::range(int, int)' into 'ap_int_base<52, false>::operator()(int, int)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:1085:18)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi52ELb0EEC2EDq52_j' into 'ap_int_base<52, false>::ap_int_base<64, false>(ap_int_base<64, false> const&)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<52, false>::ap_int_base<64, false>(ap_int_base<64, false> const&)' into 'ap_range_ref<52, false>& ap_range_ref<52, false>::operator=<64, false>(ap_int_base<64, false> const&)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_ref.h:367:31)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<64, false>::ap_int_base<64, false>(ap_range_ref<64, false> const&)' into 'ap_range_ref<52, false>& ap_range_ref<52, false>::operator=<64, false>(ap_range_ref<64, false> const&)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_ref.h:382:22)
+INFO: [HLS 214-131] Inlining function 'ap_range_ref<52, false>& ap_range_ref<52, false>::operator=<64, false>(ap_int_base<64, false> const&)' into 'ap_range_ref<52, false>& ap_range_ref<52, false>::operator=<64, false>(ap_range_ref<64, false> const&)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_ref.h:382:12)
+INFO: [HLS 214-131] Inlining function 'ap_range_ref<52, false>& ap_range_ref<52, false>::operator=<64, false>(ap_range_ref<64, false> const&)' into 'fp_struct<double>::fp_struct(double)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:491:19)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<52, false>::operator()(int, int)' into 'fp_struct<double>::fp_struct(double)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:491:9)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<64, false>::operator()(int, int)' into 'fp_struct<double>::fp_struct(double)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:491:21)
+INFO: [HLS 214-131] Inlining function 'ap_range_ref<11, false>& ap_range_ref<11, false>::operator=<64, false>(ap_range_ref<64, false> const&)' into 'fp_struct<double>::fp_struct(double)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:490:19)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<11, false>::operator()(int, int)' into 'fp_struct<double>::fp_struct(double)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:490:9)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<64, false>::operator()(int, int)' into 'fp_struct<double>::fp_struct(double)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:490:21)
+INFO: [HLS 214-131] Inlining function 'ap_bit_ref<1, false>& ap_bit_ref<1, false>::operator=<64, false>(ap_bit_ref<64, false> const&)' into 'fp_struct<double>::fp_struct(double)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:489:17)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::operator[](int)' into 'fp_struct<double>::fp_struct(double)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:489:9)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<64, false>::operator[](int)' into 'fp_struct<double>::fp_struct(double)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:489:19)
+INFO: [HLS 214-131] Inlining function 'ssdm_int<32, true>::ssdm_int(int)' into 'ap_int_base<32, true>::ap_int_base(int)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'bool operator==<11, false>(ap_int_base<11, false> const&, int)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:1788:1853)
+INFO: [HLS 214-131] Inlining function 'bool ap_int_base<11, false>::operator==<32, true>(ap_int_base<32, true> const&) const' into 'bool operator==<11, false>(ap_int_base<11, false> const&, int)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:1788:1850)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'bool operator!=<52, false>(ap_int_base<52, false> const&, int)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:1788:2233)
+INFO: [HLS 214-131] Inlining function 'bool ap_int_base<52, false>::operator!=<32, true>(ap_int_base<32, true> const&) const' into 'bool operator!=<52, false>(ap_int_base<52, false> const&, int)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:1788:2230)
+INFO: [HLS 214-131] Inlining function 'bool operator==<11, false>(ap_int_base<11, false> const&, int)' into 'int generic_isnan<double>(double)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_isnan.h:18:22)
+INFO: [HLS 214-131] Inlining function 'bool operator!=<52, false>(ap_int_base<52, false> const&, int)' into 'int generic_isnan<double>(double)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_isnan.h:18:62)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::fp_struct(double)' into 'int generic_isnan<double>(double)' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_isnan.h:16:0)
+INFO: [HLS 214-178] Inlining function 'int generic_isnan<double>(double)' into '__isnan' (C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib\hlsmath\src\c\isnandouble.cpp:7:0)
+INFO: [HLS 214-178] Inlining function '__isnan' into 'rtIsNaNF' (../C_for_HLS/rt_nonfinite.c:71:0)
+WARNING: [HLS 214-167] The program may have out of bound array access
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 6.751 seconds; current allocated memory: 96.410 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.075 seconds; current allocated memory: 96.477 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.415 seconds; current allocated memory: 124.586 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.404 seconds; current allocated memory: 144.969 MB.
+INFO: [XFORM 203-510] Pipelining loop 'Loop-2' in function 'svm_speech_30' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'Loop-3' in function 'svm_speech_30' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'Loop-4' in function 'svm_speech_30' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'Loop-5' in function 'svm_speech_30' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'Loop-6' in function 'svm_speech_30' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'Loop-7' in function 'svm_speech_30' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'Loop-8' in function 'svm_speech_30' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'Loop-9' in function 'svm_speech_30' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'Loop-10' in function 'svm_speech_30' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'Loop-11' in function 'svm_speech_30' automatically.
+INFO: [XFORM 203-102] Partitioning array 'b_in1' (../C_for_HLS/svm_speech_30.c:193) automatically.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (../C_for_HLS/CompactClassificationECOC.c:1496:7) to (../C_for_HLS/CompactClassificationECOC.c:1669:3) in function 'c_CompactClassificationECOC_pre.1'... converting 9 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.303 seconds; current allocated memory: 185.688 MB.
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:199:30)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' 
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:201:31)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:202:34)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:203:34)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:204:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:205:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:206:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:207:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:213:30)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' 
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:215:31)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:216:34)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:217:34)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:218:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:219:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:220:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:221:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:227:30)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' 
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:229:31)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:230:34)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:231:34)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:232:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:233:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:234:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:235:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:241:30)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' 
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:243:31)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:244:34)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:245:34)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:246:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:247:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:248:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:249:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:255:30)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' 
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:257:31)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:258:34)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:259:34)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:260:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:261:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:262:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:263:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:269:30)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' 
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:271:31)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:272:34)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:273:34)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:274:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:275:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:276:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:277:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:283:30)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' 
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:285:31)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:286:34)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:287:34)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:288:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:289:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:290:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:291:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:297:30)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' 
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:299:31)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:300:34)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:301:34)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:302:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:303:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:304:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:305:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:311:30)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' 
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:313:31)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:314:34)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:315:34)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:316:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:317:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:318:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:319:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:325:30)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' 
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:327:31)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:328:34)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:329:34)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:330:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:331:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:332:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'Mdl_BinaryLearners' (../C_for_HLS/svm_speech_30.c:333:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'negloss' (../C_for_HLS/CompactClassificationECOC.c:1497:14)
+INFO: [HLS 200-472] Inferring partial write operation for 'negloss' (../C_for_HLS/CompactClassificationECOC.c:1500:14)
+INFO: [HLS 200-472] Inferring partial write operation for 'negloss' (../C_for_HLS/CompactClassificationECOC.c:1503:14)
+INFO: [HLS 200-472] Inferring partial write operation for 'negloss' (../C_for_HLS/CompactClassificationECOC.c:1506:14)
+INFO: [HLS 200-472] Inferring partial write operation for 'negloss' (../C_for_HLS/CompactClassificationECOC.c:1509:14)
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.454 seconds; current allocated memory: 306.387 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'svm_speech_30' ...
+WARNING: [SYN 201-103] Legalizing function name 'c_CompactClassificationECOC_pre.1' to 'c_CompactClassificationECOC_pre_1'.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'svm_speech_30_Pipeline_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'Loop 1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.28 seconds; current allocated memory: 311.945 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.053 seconds; current allocated memory: 313.137 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'svm_speech_30_Pipeline_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'Loop 1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.071 seconds; current allocated memory: 313.324 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.055 seconds; current allocated memory: 313.332 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'svm_speech_30_Pipeline_3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'Loop 1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.088 seconds; current allocated memory: 313.508 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.052 seconds; current allocated memory: 313.508 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'svm_speech_30_Pipeline_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'Loop 1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.078 seconds; current allocated memory: 313.742 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.05 seconds; current allocated memory: 313.777 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'svm_speech_30_Pipeline_5' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'Loop 1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.094 seconds; current allocated memory: 314.086 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.049 seconds; current allocated memory: 314.090 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'svm_speech_30_Pipeline_6' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'Loop 1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.084 seconds; current allocated memory: 314.289 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.057 seconds; current allocated memory: 314.305 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'svm_speech_30_Pipeline_7' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'Loop 1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.108 seconds; current allocated memory: 314.621 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.061 seconds; current allocated memory: 314.621 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'svm_speech_30_Pipeline_8' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'Loop 1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.087 seconds; current allocated memory: 314.914 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.061 seconds; current allocated memory: 314.914 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'svm_speech_30_Pipeline_9' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'Loop 1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.096 seconds; current allocated memory: 315.164 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.058 seconds; current allocated memory: 315.223 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'svm_speech_30_Pipeline_10' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'Loop 1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.084 seconds; current allocated memory: 315.473 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 315.477 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'rtIsNaNF' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.064 seconds; current allocated memory: 315.523 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.048 seconds; current allocated memory: 315.566 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'c_CompactClassificationECOC_pre_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 3 seconds. CPU system time: 0 seconds. Elapsed time: 8.277 seconds; current allocated memory: 346.359 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 5.696 seconds; current allocated memory: 346.359 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'svm_speech_30' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 5.793 seconds; current allocated memory: 346.359 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.122 seconds; current allocated memory: 346.359 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'svm_speech_30_Pipeline_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'svm_speech_30_Pipeline_1' pipeline 'Loop 1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'svm_speech_30_Pipeline_1'.
+INFO: [RTMG 210-279] Implementing memory 'svm_speech_30_svm_speech_30_Pipeline_1_dv_ROM_AUTO_1R' using auto ROMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.864 seconds; current allocated memory: 347.359 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'svm_speech_30_Pipeline_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'svm_speech_30_Pipeline_2' pipeline 'Loop 1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'svm_speech_30_Pipeline_2'.
+INFO: [RTMG 210-279] Implementing memory 'svm_speech_30_svm_speech_30_Pipeline_2_dv1_ROM_AUTO_1R' using auto ROMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.14 seconds; current allocated memory: 348.176 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'svm_speech_30_Pipeline_3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'svm_speech_30_Pipeline_3' pipeline 'Loop 1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'svm_speech_30_Pipeline_3'.
+INFO: [RTMG 210-279] Implementing memory 'svm_speech_30_svm_speech_30_Pipeline_3_dv2_ROM_AUTO_1R' using auto ROMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.137 seconds; current allocated memory: 348.227 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'svm_speech_30_Pipeline_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'svm_speech_30_Pipeline_4' pipeline 'Loop 1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'svm_speech_30_Pipeline_4'.
+INFO: [RTMG 210-279] Implementing memory 'svm_speech_30_svm_speech_30_Pipeline_4_dv3_ROM_AUTO_1R' using auto ROMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.173 seconds; current allocated memory: 348.477 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'svm_speech_30_Pipeline_5' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'svm_speech_30_Pipeline_5' pipeline 'Loop 1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'svm_speech_30_Pipeline_5'.
+INFO: [RTMG 210-279] Implementing memory 'svm_speech_30_svm_speech_30_Pipeline_5_dv4_ROM_AUTO_1R' using auto ROMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.166 seconds; current allocated memory: 348.477 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'svm_speech_30_Pipeline_6' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'svm_speech_30_Pipeline_6' pipeline 'Loop 1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'svm_speech_30_Pipeline_6'.
+INFO: [RTMG 210-279] Implementing memory 'svm_speech_30_svm_speech_30_Pipeline_6_dv5_ROM_AUTO_1R' using auto ROMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.174 seconds; current allocated memory: 349.012 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'svm_speech_30_Pipeline_7' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'svm_speech_30_Pipeline_7' pipeline 'Loop 1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'svm_speech_30_Pipeline_7'.
+INFO: [RTMG 210-279] Implementing memory 'svm_speech_30_svm_speech_30_Pipeline_7_dv6_ROM_AUTO_1R' using auto ROMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.153 seconds; current allocated memory: 349.441 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'svm_speech_30_Pipeline_8' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'svm_speech_30_Pipeline_8' pipeline 'Loop 1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'svm_speech_30_Pipeline_8'.
+INFO: [RTMG 210-279] Implementing memory 'svm_speech_30_svm_speech_30_Pipeline_8_dv7_ROM_AUTO_1R' using auto ROMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.16 seconds; current allocated memory: 350.199 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'svm_speech_30_Pipeline_9' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'svm_speech_30_Pipeline_9' pipeline 'Loop 1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'svm_speech_30_Pipeline_9'.
+INFO: [RTMG 210-279] Implementing memory 'svm_speech_30_svm_speech_30_Pipeline_9_dv8_ROM_AUTO_1R' using auto ROMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.172 seconds; current allocated memory: 351.012 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'svm_speech_30_Pipeline_10' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'svm_speech_30_Pipeline_10' pipeline 'Loop 1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'svm_speech_30_Pipeline_10'.
+INFO: [RTMG 210-279] Implementing memory 'svm_speech_30_svm_speech_30_Pipeline_10_dv9_ROM_AUTO_1R' using auto ROMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.162 seconds; current allocated memory: 351.543 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'rtIsNaNF' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'fpext_32ns_64_1_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'rtIsNaNF'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.148 seconds; current allocated memory: 352.375 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'c_CompactClassificationECOC_pre_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'fadd_32ns_32ns_32_2_full_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'faddfsub_32ns_32ns_32_2_full_dsp_1': 7 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fcmp_32ns_32ns_1_1_no_dsp_1': 6 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fdiv_32ns_32ns_32_3_no_dsp_1': 12 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_1_max_dsp_1': 5 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fptrunc_64ns_32_1_no_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sitodp_32ns_64_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sitofp_32ns_32_2_no_dsp_1': 5 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'c_CompactClassificationECOC_pre_1'.
+INFO: [RTMG 210-278] Implementing memory 'svm_speech_30_c_CompactClassificationECOC_pre_1_negloss_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.809 seconds; current allocated memory: 373.629 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'svm_speech_30' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in1' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in2' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in3' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in4' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in5' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in6' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in7' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in8' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in9' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in10' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in11' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in12' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in13' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in14' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in15' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in16' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in17' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in18' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in19' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in20' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in21' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in22' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in23' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in24' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in25' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in26' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in27' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in28' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in29' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in30' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in31' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'svm_speech_30/in32' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'svm_speech_30' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' to AXI-Lite port control.
+INFO: [RTGEN 206-100] Bundling port 'in1', 'in2', 'in3', 'in4', 'in5', 'in6', 'in7' and 'in8' to AXI-Lite port inputpart1.
+INFO: [RTGEN 206-100] Bundling port 'in9', 'in10', 'in11', 'in12', 'in13', 'in14', 'in15' and 'in16' to AXI-Lite port inputpart2.
+INFO: [RTGEN 206-100] Bundling port 'in17', 'in18', 'in19', 'in20', 'in21', 'in22', 'in23' and 'in24' to AXI-Lite port inputpart3.
+INFO: [RTGEN 206-100] Bundling port 'in25', 'in26', 'in27', 'in28', 'in29', 'in30', 'in31' and 'in32' to AXI-Lite port inputpart4.
+INFO: [RTGEN 206-100] Generating core module 'fptrunc_64ns_32_1_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'svm_speech_30'.
+INFO: [RTMG 210-278] Implementing memory 'svm_speech_30_Mdl_BinaryLearners_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 3 seconds. CPU system time: 2 seconds. Elapsed time: 17.77 seconds; current allocated memory: 424.898 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 4.489 seconds; current allocated memory: 431.211 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 2.144 seconds; current allocated memory: 453.086 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for svm_speech_30.
+INFO: [VLOG 209-307] Generating Verilog RTL for svm_speech_30.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 13.75 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 13 seconds. CPU system time: 3 seconds. Elapsed time: 72.855 seconds; current allocated memory: 363.121 MB.
+INFO: [HLS 200-112] Total CPU user time: 14 seconds. Total CPU system time: 3 seconds. Total elapsed time: 85.147 seconds; peak allocated memory: 453.648 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 100ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_compile -complex-mul-dsp=0
+INFO: [HLS 200-1464] Running solution command: config_compile -name_max_length=120
+INFO: [XFORM 203-1161] The maximum of name length is set to 120.
+INFO: [HLS 200-1464] Running solution command: config_cosim -rtl=vhdl
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=vhdl
+INFO: [HLS 200-1464] Running solution command: config_export -vivado_clock=100
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [XFORM 203-1161] The maximum of name length is set to 120.
+INFO: [HLS 200-1510] Running: create_clock -period 100 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 100ns.
+INFO: [HLS 200-1510] Running: config_compile -name_max_length 120 
+INFO: [XFORM 203-1161] The maximum of name length is set to 120.
+INFO: [HLS 200-1510] Running: config_cosim -rtl vhdl 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl vhdl -vivado_clock 100 
+INFO: [HLS 200-1510] Running: source ./SVM_speech_30/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite svm_speech_30 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in2 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in6 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in8 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in7 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in5 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in1 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in4 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in3 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in11 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in10 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in12 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in13 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in15 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in16 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in9 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in14 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in21 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in19 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in17 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in24 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in20 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in18 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in22 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in23 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in28 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in29 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in31 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in26 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in32 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in30 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in27 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in25 
+INFO: [HLS 200-1510] Running: export_design -flow syn -rtl vhdl -format ip_catalog 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+INFO: [IMPL 213-8] Starting RTL evaluation using Vivado ...
+INFO: [HLS 200-802] Generated output file SVM_speech_30/solution1/impl/export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 562.783 seconds; current allocated memory: 31.207 MB.
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 574.885 seconds; peak allocated memory: 121.184 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 100ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_compile -complex-mul-dsp=0
+INFO: [HLS 200-1464] Running solution command: config_compile -name_max_length=120
+INFO: [XFORM 203-1161] The maximum of name length is set to 120.
+INFO: [HLS 200-1464] Running solution command: config_cosim -rtl=vhdl
+INFO: [HLS 200-1464] Running solution command: config_export -flow=syn
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=vhdl
+INFO: [HLS 200-1464] Running solution command: config_export -vivado_clock=100
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [XFORM 203-1161] The maximum of name length is set to 120.
+INFO: [HLS 200-1510] Running: create_clock -period 100 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 100ns.
+INFO: [HLS 200-1510] Running: config_compile -name_max_length 120 
+INFO: [XFORM 203-1161] The maximum of name length is set to 120.
+INFO: [HLS 200-1510] Running: config_cosim -rtl vhdl 
+INFO: [HLS 200-1510] Running: config_export -flow syn -format ip_catalog -rtl vhdl -vivado_clock 100 
+INFO: [HLS 200-1510] Running: source ./SVM_speech_30/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite svm_speech_30 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in2 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in6 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in8 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in7 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in5 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in1 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in4 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart1 svm_speech_30 in3 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in11 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in10 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in12 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in13 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in15 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in16 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in9 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart2 svm_speech_30 in14 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in21 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in19 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in17 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in24 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in20 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in18 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in22 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart3 svm_speech_30 in23 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in28 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in29 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in31 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in26 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in32 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in30 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in27 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite -bundle inputpart4 svm_speech_30 in25 
+INFO: [HLS 200-1510] Running: export_design -rtl vhdl -format ip_catalog 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+INFO: [IMPL 213-8] Starting RTL evaluation using Vivado ...
+INFO: [HLS 200-802] Generated output file SVM_speech_30/solution1/impl/export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 500.801 seconds; current allocated memory: 32.359 MB.
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 512.59 seconds; peak allocated memory: 122.445 MB.

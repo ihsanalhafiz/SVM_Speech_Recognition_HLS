@@ -1,0 +1,292 @@
+
+
+================================================================
+== Vitis HLS Report for 'svm_speech_30'
+================================================================
+* Date:           Sat Dec 24 04:25:26 2022
+
+* Version:        2022.2 (Build 3670227 on Oct 13 2022)
+* Project:        SVM_speech_30
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+-----------+------------+
+    |  Clock |  Target | Estimated | Uncertainty|
+    +--------+---------+-----------+------------+
+    |ap_clk  |  0.10 us|  72.710 ns|    27.00 ns|
+    +--------+---------+-----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline|
+    |   min   |   max   |    min    |    max    | min | max |   Type  |
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |      612|      628|  61.200 us|  62.800 us|  613|  629|       no|
+    +---------+---------+-----------+-----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        +-----------------------------------------------+-----------------------------------+---------+---------+-----------+-----------+-----+-----+---------+
+        |                                               |                                   |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline|
+        |                    Instance                   |               Module              |   min   |   max   |    min    |    max    | min | max |   Type  |
+        +-----------------------------------------------+-----------------------------------+---------+---------+-----------+-----------+-----+-----+---------+
+        |grp_svm_speech_30_Pipeline_1_fu_1419           |svm_speech_30_Pipeline_1           |       34|       34|   3.400 us|   3.400 us|   34|   34|       no|
+        |grp_svm_speech_30_Pipeline_2_fu_1426           |svm_speech_30_Pipeline_2           |       34|       34|   3.400 us|   3.400 us|   34|   34|       no|
+        |grp_svm_speech_30_Pipeline_3_fu_1433           |svm_speech_30_Pipeline_3           |       34|       34|   3.400 us|   3.400 us|   34|   34|       no|
+        |grp_svm_speech_30_Pipeline_4_fu_1440           |svm_speech_30_Pipeline_4           |       34|       34|   3.400 us|   3.400 us|   34|   34|       no|
+        |grp_svm_speech_30_Pipeline_5_fu_1447           |svm_speech_30_Pipeline_5           |       34|       34|   3.400 us|   3.400 us|   34|   34|       no|
+        |grp_svm_speech_30_Pipeline_6_fu_1454           |svm_speech_30_Pipeline_6           |       34|       34|   3.400 us|   3.400 us|   34|   34|       no|
+        |grp_svm_speech_30_Pipeline_7_fu_1461           |svm_speech_30_Pipeline_7           |       34|       34|   3.400 us|   3.400 us|   34|   34|       no|
+        |grp_svm_speech_30_Pipeline_8_fu_1468           |svm_speech_30_Pipeline_8           |       34|       34|   3.400 us|   3.400 us|   34|   34|       no|
+        |grp_svm_speech_30_Pipeline_9_fu_1475           |svm_speech_30_Pipeline_9           |       34|       34|   3.400 us|   3.400 us|   34|   34|       no|
+        |grp_svm_speech_30_Pipeline_10_fu_1482          |svm_speech_30_Pipeline_10          |       34|       34|   3.400 us|   3.400 us|   34|   34|       no|
+        |grp_c_CompactClassificationECOC_pre_1_fu_1489  |c_CompactClassificationECOC_pre_1  |      181|      197|  18.100 us|  19.700 us|  181|  197|       no|
+        +-----------------------------------------------+-----------------------------------+---------+---------+-----------+-----------+-----+-----+---------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       -|      -|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |       20|   31|    7888|  20687|    0|
+|Memory           |        4|    -|       0|      0|    0|
+|Multiplexer      |        -|    -|       -|   1527|    -|
+|Register         |        -|    -|    1127|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |       24|   31|    9015|  22214|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      280|  220|  106400|  53200|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |        8|   14|       8|     41|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    +-----------------------------------------------+-----------------------------------+---------+----+------+-------+-----+
+    |                    Instance                   |               Module              | BRAM_18K| DSP|  FF  |  LUT  | URAM|
+    +-----------------------------------------------+-----------------------------------+---------+----+------+-------+-----+
+    |grp_c_CompactClassificationECOC_pre_1_fu_1489  |c_CompactClassificationECOC_pre_1  |        0|  31|  6343|  17554|    0|
+    |control_s_axi_U                                |control_s_axi                      |        0|   0|    68|    104|    0|
+    |fptrunc_64ns_32_1_no_dsp_1_U105                |fptrunc_64ns_32_1_no_dsp_1         |        0|   0|     0|      0|    0|
+    |inputpart1_s_axi_U                             |inputpart1_s_axi                   |        0|   0|   334|    552|    0|
+    |inputpart2_s_axi_U                             |inputpart2_s_axi                   |        0|   0|   334|    552|    0|
+    |inputpart3_s_axi_U                             |inputpart3_s_axi                   |        0|   0|   334|    552|    0|
+    |inputpart4_s_axi_U                             |inputpart4_s_axi                   |        0|   0|   334|    552|    0|
+    |grp_svm_speech_30_Pipeline_1_fu_1419           |svm_speech_30_Pipeline_1           |        2|   0|    15|     71|    0|
+    |grp_svm_speech_30_Pipeline_10_fu_1482          |svm_speech_30_Pipeline_10          |        2|   0|    14|     83|    0|
+    |grp_svm_speech_30_Pipeline_2_fu_1426           |svm_speech_30_Pipeline_2           |        2|   0|    14|     84|    0|
+    |grp_svm_speech_30_Pipeline_3_fu_1433           |svm_speech_30_Pipeline_3           |        2|   0|    14|     84|    0|
+    |grp_svm_speech_30_Pipeline_4_fu_1440           |svm_speech_30_Pipeline_4           |        2|   0|    14|     83|    0|
+    |grp_svm_speech_30_Pipeline_5_fu_1447           |svm_speech_30_Pipeline_5           |        2|   0|    14|     83|    0|
+    |grp_svm_speech_30_Pipeline_6_fu_1454           |svm_speech_30_Pipeline_6           |        2|   0|    14|     84|    0|
+    |grp_svm_speech_30_Pipeline_7_fu_1461           |svm_speech_30_Pipeline_7           |        2|   0|    14|     83|    0|
+    |grp_svm_speech_30_Pipeline_8_fu_1468           |svm_speech_30_Pipeline_8           |        2|   0|    14|     83|    0|
+    |grp_svm_speech_30_Pipeline_9_fu_1475           |svm_speech_30_Pipeline_9           |        2|   0|    14|     83|    0|
+    +-----------------------------------------------+-----------------------------------+---------+----+------+-------+-----+
+    |Total                                          |                                   |       20|  31|  7888|  20687|    0|
+    +-----------------------------------------------+-----------------------------------+---------+----+------+-------+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    +----------------------+----------------------------------+---------+---+----+-----+------+-----+------+-------------+
+    |        Memory        |              Module              | BRAM_18K| FF| LUT| URAM| Words| Bits| Banks| W*Bits*Banks|
+    +----------------------+----------------------------------+---------+---+----+-----+------+-----+------+-------------+
+    |Mdl_BinaryLearners_U  |Mdl_BinaryLearners_RAM_AUTO_1R1W  |        4|  0|   0|    0|   430|   64|     1|        27520|
+    +----------------------+----------------------------------+---------+---+----+-----+------+-----+------+-------------+
+    |Total                 |                                  |        4|  0|   0|    0|   430|   64|     1|        27520|
+    +----------------------+----------------------------------+---------+---+----+-----+------+-----+------+-------------+
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    N/A
+
+    * Multiplexer: 
+    +-----------------------------+-----+-----------+-----+-----------+
+    |             Name            | LUT | Input Size| Bits| Total Bits|
+    +-----------------------------+-----+-----------+-----+-----------+
+    |Mdl_BinaryLearners_address0  |  377|         77|    9|        693|
+    |Mdl_BinaryLearners_address1  |  297|         67|    9|        603|
+    |Mdl_BinaryLearners_ce0       |   65|         13|    1|         13|
+    |Mdl_BinaryLearners_ce1       |   14|          3|    1|          3|
+    |Mdl_BinaryLearners_d0        |  130|         29|   64|       1856|
+    |Mdl_BinaryLearners_d1        |   81|         17|   64|       1088|
+    |Mdl_BinaryLearners_we0       |   65|         16|    8|        128|
+    |Mdl_BinaryLearners_we1       |   31|          6|    8|         48|
+    |ap_NS_fsm                    |  467|         93|    1|         93|
+    +-----------------------------+-----+-----------+-----+-----------+
+    |Total                        | 1527|        321|  165|       4525|
+    +-----------------------------+-----+-----------+-----+-----------+
+
+    * Register: 
+    +------------------------------------------------------------+----+----+-----+-----------+
+    |                            Name                            | FF | LUT| Bits| Const Bits|
+    +------------------------------------------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                                                   |  92|   0|   92|          0|
+    |grp_c_CompactClassificationECOC_pre_1_fu_1489_ap_start_reg  |   1|   0|    1|          0|
+    |grp_svm_speech_30_Pipeline_10_fu_1482_ap_start_reg          |   1|   0|    1|          0|
+    |grp_svm_speech_30_Pipeline_1_fu_1419_ap_start_reg           |   1|   0|    1|          0|
+    |grp_svm_speech_30_Pipeline_2_fu_1426_ap_start_reg           |   1|   0|    1|          0|
+    |grp_svm_speech_30_Pipeline_3_fu_1433_ap_start_reg           |   1|   0|    1|          0|
+    |grp_svm_speech_30_Pipeline_4_fu_1440_ap_start_reg           |   1|   0|    1|          0|
+    |grp_svm_speech_30_Pipeline_5_fu_1447_ap_start_reg           |   1|   0|    1|          0|
+    |grp_svm_speech_30_Pipeline_6_fu_1454_ap_start_reg           |   1|   0|    1|          0|
+    |grp_svm_speech_30_Pipeline_7_fu_1461_ap_start_reg           |   1|   0|    1|          0|
+    |grp_svm_speech_30_Pipeline_8_fu_1468_ap_start_reg           |   1|   0|    1|          0|
+    |grp_svm_speech_30_Pipeline_9_fu_1475_ap_start_reg           |   1|   0|    1|          0|
+    |in10_read_reg_1772                                          |  32|   0|   32|          0|
+    |in11_read_reg_1767                                          |  32|   0|   32|          0|
+    |in12_read_reg_1762                                          |  32|   0|   32|          0|
+    |in13_read_reg_1757                                          |  32|   0|   32|          0|
+    |in14_read_reg_1752                                          |  32|   0|   32|          0|
+    |in15_read_reg_1747                                          |  32|   0|   32|          0|
+    |in16_read_reg_1742                                          |  32|   0|   32|          0|
+    |in17_read_reg_1737                                          |  32|   0|   32|          0|
+    |in18_read_reg_1732                                          |  32|   0|   32|          0|
+    |in19_read_reg_1727                                          |  32|   0|   32|          0|
+    |in1_read_reg_1817                                           |  32|   0|   32|          0|
+    |in20_read_reg_1722                                          |  32|   0|   32|          0|
+    |in21_read_reg_1717                                          |  32|   0|   32|          0|
+    |in22_read_reg_1712                                          |  32|   0|   32|          0|
+    |in23_read_reg_1707                                          |  32|   0|   32|          0|
+    |in24_read_reg_1702                                          |  32|   0|   32|          0|
+    |in25_read_reg_1697                                          |  32|   0|   32|          0|
+    |in26_read_reg_1692                                          |  32|   0|   32|          0|
+    |in27_read_reg_1687                                          |  32|   0|   32|          0|
+    |in28_read_reg_1682                                          |  32|   0|   32|          0|
+    |in29_read_reg_1677                                          |  32|   0|   32|          0|
+    |in2_read_reg_1812                                           |  32|   0|   32|          0|
+    |in30_read_reg_1672                                          |  32|   0|   32|          0|
+    |in31_read_reg_1667                                          |  32|   0|   32|          0|
+    |in32_read_reg_1662                                          |  32|   0|   32|          0|
+    |in3_read_reg_1807                                           |  32|   0|   32|          0|
+    |in4_read_reg_1802                                           |  32|   0|   32|          0|
+    |in5_read_reg_1797                                           |  32|   0|   32|          0|
+    |in6_read_reg_1792                                           |  32|   0|   32|          0|
+    |in7_read_reg_1787                                           |  32|   0|   32|          0|
+    |in8_read_reg_1782                                           |  32|   0|   32|          0|
+    |in9_read_reg_1777                                           |  32|   0|   32|          0|
+    +------------------------------------------------------------+----+----+-----+-----------+
+    |Total                                                       |1127|   0| 1127|          0|
+    +------------------------------------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++--------------------------+-----+-----+------------+---------------+--------------+
+|         RTL Ports        | Dir | Bits|  Protocol  | Source Object |    C Type    |
++--------------------------+-----+-----+------------+---------------+--------------+
+|s_axi_control_AWVALID     |   in|    1|       s_axi|        control|  return value|
+|s_axi_control_AWREADY     |  out|    1|       s_axi|        control|  return value|
+|s_axi_control_AWADDR      |   in|    5|       s_axi|        control|  return value|
+|s_axi_control_WVALID      |   in|    1|       s_axi|        control|  return value|
+|s_axi_control_WREADY      |  out|    1|       s_axi|        control|  return value|
+|s_axi_control_WDATA       |   in|   32|       s_axi|        control|  return value|
+|s_axi_control_WSTRB       |   in|    4|       s_axi|        control|  return value|
+|s_axi_control_ARVALID     |   in|    1|       s_axi|        control|  return value|
+|s_axi_control_ARREADY     |  out|    1|       s_axi|        control|  return value|
+|s_axi_control_ARADDR      |   in|    5|       s_axi|        control|  return value|
+|s_axi_control_RVALID      |  out|    1|       s_axi|        control|  return value|
+|s_axi_control_RREADY      |   in|    1|       s_axi|        control|  return value|
+|s_axi_control_RDATA       |  out|   32|       s_axi|        control|  return value|
+|s_axi_control_RRESP       |  out|    2|       s_axi|        control|  return value|
+|s_axi_control_BVALID      |  out|    1|       s_axi|        control|  return value|
+|s_axi_control_BREADY      |   in|    1|       s_axi|        control|  return value|
+|s_axi_control_BRESP       |  out|    2|       s_axi|        control|  return value|
+|s_axi_inputpart1_AWVALID  |   in|    1|       s_axi|     inputpart1|        scalar|
+|s_axi_inputpart1_AWREADY  |  out|    1|       s_axi|     inputpart1|        scalar|
+|s_axi_inputpart1_AWADDR   |   in|    7|       s_axi|     inputpart1|        scalar|
+|s_axi_inputpart1_WVALID   |   in|    1|       s_axi|     inputpart1|        scalar|
+|s_axi_inputpart1_WREADY   |  out|    1|       s_axi|     inputpart1|        scalar|
+|s_axi_inputpart1_WDATA    |   in|   32|       s_axi|     inputpart1|        scalar|
+|s_axi_inputpart1_WSTRB    |   in|    4|       s_axi|     inputpart1|        scalar|
+|s_axi_inputpart1_ARVALID  |   in|    1|       s_axi|     inputpart1|        scalar|
+|s_axi_inputpart1_ARREADY  |  out|    1|       s_axi|     inputpart1|        scalar|
+|s_axi_inputpart1_ARADDR   |   in|    7|       s_axi|     inputpart1|        scalar|
+|s_axi_inputpart1_RVALID   |  out|    1|       s_axi|     inputpart1|        scalar|
+|s_axi_inputpart1_RREADY   |   in|    1|       s_axi|     inputpart1|        scalar|
+|s_axi_inputpart1_RDATA    |  out|   32|       s_axi|     inputpart1|        scalar|
+|s_axi_inputpart1_RRESP    |  out|    2|       s_axi|     inputpart1|        scalar|
+|s_axi_inputpart1_BVALID   |  out|    1|       s_axi|     inputpart1|        scalar|
+|s_axi_inputpart1_BREADY   |   in|    1|       s_axi|     inputpart1|        scalar|
+|s_axi_inputpart1_BRESP    |  out|    2|       s_axi|     inputpart1|        scalar|
+|s_axi_inputpart2_AWVALID  |   in|    1|       s_axi|     inputpart2|        scalar|
+|s_axi_inputpart2_AWREADY  |  out|    1|       s_axi|     inputpart2|        scalar|
+|s_axi_inputpart2_AWADDR   |   in|    7|       s_axi|     inputpart2|        scalar|
+|s_axi_inputpart2_WVALID   |   in|    1|       s_axi|     inputpart2|        scalar|
+|s_axi_inputpart2_WREADY   |  out|    1|       s_axi|     inputpart2|        scalar|
+|s_axi_inputpart2_WDATA    |   in|   32|       s_axi|     inputpart2|        scalar|
+|s_axi_inputpart2_WSTRB    |   in|    4|       s_axi|     inputpart2|        scalar|
+|s_axi_inputpart2_ARVALID  |   in|    1|       s_axi|     inputpart2|        scalar|
+|s_axi_inputpart2_ARREADY  |  out|    1|       s_axi|     inputpart2|        scalar|
+|s_axi_inputpart2_ARADDR   |   in|    7|       s_axi|     inputpart2|        scalar|
+|s_axi_inputpart2_RVALID   |  out|    1|       s_axi|     inputpart2|        scalar|
+|s_axi_inputpart2_RREADY   |   in|    1|       s_axi|     inputpart2|        scalar|
+|s_axi_inputpart2_RDATA    |  out|   32|       s_axi|     inputpart2|        scalar|
+|s_axi_inputpart2_RRESP    |  out|    2|       s_axi|     inputpart2|        scalar|
+|s_axi_inputpart2_BVALID   |  out|    1|       s_axi|     inputpart2|        scalar|
+|s_axi_inputpart2_BREADY   |   in|    1|       s_axi|     inputpart2|        scalar|
+|s_axi_inputpart2_BRESP    |  out|    2|       s_axi|     inputpart2|        scalar|
+|s_axi_inputpart3_AWVALID  |   in|    1|       s_axi|     inputpart3|        scalar|
+|s_axi_inputpart3_AWREADY  |  out|    1|       s_axi|     inputpart3|        scalar|
+|s_axi_inputpart3_AWADDR   |   in|    7|       s_axi|     inputpart3|        scalar|
+|s_axi_inputpart3_WVALID   |   in|    1|       s_axi|     inputpart3|        scalar|
+|s_axi_inputpart3_WREADY   |  out|    1|       s_axi|     inputpart3|        scalar|
+|s_axi_inputpart3_WDATA    |   in|   32|       s_axi|     inputpart3|        scalar|
+|s_axi_inputpart3_WSTRB    |   in|    4|       s_axi|     inputpart3|        scalar|
+|s_axi_inputpart3_ARVALID  |   in|    1|       s_axi|     inputpart3|        scalar|
+|s_axi_inputpart3_ARREADY  |  out|    1|       s_axi|     inputpart3|        scalar|
+|s_axi_inputpart3_ARADDR   |   in|    7|       s_axi|     inputpart3|        scalar|
+|s_axi_inputpart3_RVALID   |  out|    1|       s_axi|     inputpart3|        scalar|
+|s_axi_inputpart3_RREADY   |   in|    1|       s_axi|     inputpart3|        scalar|
+|s_axi_inputpart3_RDATA    |  out|   32|       s_axi|     inputpart3|        scalar|
+|s_axi_inputpart3_RRESP    |  out|    2|       s_axi|     inputpart3|        scalar|
+|s_axi_inputpart3_BVALID   |  out|    1|       s_axi|     inputpart3|        scalar|
+|s_axi_inputpart3_BREADY   |   in|    1|       s_axi|     inputpart3|        scalar|
+|s_axi_inputpart3_BRESP    |  out|    2|       s_axi|     inputpart3|        scalar|
+|s_axi_inputpart4_AWVALID  |   in|    1|       s_axi|     inputpart4|        scalar|
+|s_axi_inputpart4_AWREADY  |  out|    1|       s_axi|     inputpart4|        scalar|
+|s_axi_inputpart4_AWADDR   |   in|    7|       s_axi|     inputpart4|        scalar|
+|s_axi_inputpart4_WVALID   |   in|    1|       s_axi|     inputpart4|        scalar|
+|s_axi_inputpart4_WREADY   |  out|    1|       s_axi|     inputpart4|        scalar|
+|s_axi_inputpart4_WDATA    |   in|   32|       s_axi|     inputpart4|        scalar|
+|s_axi_inputpart4_WSTRB    |   in|    4|       s_axi|     inputpart4|        scalar|
+|s_axi_inputpart4_ARVALID  |   in|    1|       s_axi|     inputpart4|        scalar|
+|s_axi_inputpart4_ARREADY  |  out|    1|       s_axi|     inputpart4|        scalar|
+|s_axi_inputpart4_ARADDR   |   in|    7|       s_axi|     inputpart4|        scalar|
+|s_axi_inputpart4_RVALID   |  out|    1|       s_axi|     inputpart4|        scalar|
+|s_axi_inputpart4_RREADY   |   in|    1|       s_axi|     inputpart4|        scalar|
+|s_axi_inputpart4_RDATA    |  out|   32|       s_axi|     inputpart4|        scalar|
+|s_axi_inputpart4_RRESP    |  out|    2|       s_axi|     inputpart4|        scalar|
+|s_axi_inputpart4_BVALID   |  out|    1|       s_axi|     inputpart4|        scalar|
+|s_axi_inputpart4_BREADY   |   in|    1|       s_axi|     inputpart4|        scalar|
+|s_axi_inputpart4_BRESP    |  out|    2|       s_axi|     inputpart4|        scalar|
+|ap_clk                    |   in|    1|  ap_ctrl_hs|  svm_speech_30|  return value|
+|ap_rst_n                  |   in|    1|  ap_ctrl_hs|  svm_speech_30|  return value|
+|interrupt                 |  out|    1|  ap_ctrl_hs|  svm_speech_30|  return value|
++--------------------------+-----+-----+------------+---------------+--------------+
+

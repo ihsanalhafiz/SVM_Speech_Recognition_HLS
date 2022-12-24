@@ -1,0 +1,116 @@
+
+
+================================================================
+== Vitis HLS Report for 'rtIsNaNF'
+================================================================
+* Date:           Sat Dec 24 04:24:42 2022
+
+* Version:        2022.2 (Build 3670227 on Oct 13 2022)
+* Project:        SVM_speech_30
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+-----------+------------+
+    |  Clock |  Target | Estimated | Uncertainty|
+    +--------+---------+-----------+------------+
+    |ap_clk  |  0.10 us|  22.358 ns|    27.00 ns|
+    +--------+---------+-----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        0|        0|      0 ns|      0 ns|    0|    0|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 0
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 1
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 22.3>
+ST_1 : Operation 2 [1/1] (0.00ns)   --->   "%value_read = read i32 @_ssdm_op_Read.ap_auto.float, i32 %value_r" [../C_for_HLS/rt_nonfinite.c:70]   --->   Operation 2 'read' 'value_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 3 [1/1] (18.4ns)   --->   "%dc = fpext i32 %value_read" [../C_for_HLS/rt_nonfinite.c:72]   --->   Operation 3 'fpext' 'dc' <Predicate = true> <Delay = 18.4> <CoreInst = "Float2Double">   --->   Core 64 'Float2Double' <Latency = 0> <II = 1> <Delay = 18.4> <FuncUnit> <Opcode : 'fpext'> <InPorts = 1> <OutPorts = 1>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%data_V = bitcast i64 %dc" [C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:488]   --->   Operation 4 'bitcast' 'data_V' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%fs_exp_V = partselect i11 @_ssdm_op_PartSelect.i11.i64.i32.i32, i64 %data_V, i32 52, i32 62"   --->   Operation 5 'partselect' 'fs_exp_V' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%fs_sig_V = trunc i64 %data_V"   --->   Operation 6 'trunc' 'fs_sig_V' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (1.88ns)   --->   "%icmp_ln1019 = icmp_eq  i11 %fs_exp_V, i11 2047"   --->   Operation 7 'icmp' 'icmp_ln1019' <Predicate = true> <Delay = 1.88> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.88> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 8 [1/1] (2.89ns)   --->   "%icmp_ln1023 = icmp_ne  i52 %fs_sig_V, i52 0"   --->   Operation 8 'icmp' 'icmp_ln1023' <Predicate = true> <Delay = 2.89> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.89> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 9 [1/1] (0.97ns)   --->   "%and_ln18 = and i1 %icmp_ln1019, i1 %icmp_ln1023" [C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_isnan.h:18]   --->   Operation 9 'and' 'and_ln18' <Predicate = true> <Delay = 0.97> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%ret_ln72 = ret i1 %and_ln18" [../C_for_HLS/rt_nonfinite.c:72]   --->   Operation 10 'ret' 'ret_ln72' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 100ns, clock uncertainty: 27ns.
+
+ <State 1>: 22.4ns
+The critical path consists of the following:
+	wire read operation ('value', ../C_for_HLS/rt_nonfinite.c:70) on port 'value_r' (../C_for_HLS/rt_nonfinite.c:70) [2]  (0 ns)
+	'fpext' operation ('x', ../C_for_HLS/rt_nonfinite.c:72) [3]  (18.5 ns)
+	'icmp' operation ('icmp_ln1023') [8]  (2.9 ns)
+	'and' operation ('and_ln18', C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_isnan.h:18) [9]  (0.978 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

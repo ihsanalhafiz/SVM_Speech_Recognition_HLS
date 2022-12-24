@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1671852307218">
+  <ports id="1" name="value_r" type="PortType" originalName="value" coreId="1969317477" bitwidth="32">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="11" name="ap_return" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <edges id="14" source_obj="//@ports.0" sink_obj="//@blocks.0/@node_objs.0"/>
+  <edges id="15" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.0/@node_objs.1"/>
+  <edges id="16" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges id="19" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@blocks.0/@node_objs.3"/>
+  <edges id="24" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@blocks.0/@node_objs.4"/>
+  <edges id="25" source_obj="//@blocks.0/@node_objs.3" sink_obj="//@blocks.0/@node_objs.5"/>
+  <edges id="28" source_obj="//@blocks.0/@node_objs.4" sink_obj="//@blocks.0/@node_objs.6"/>
+  <edges id="31" source_obj="//@blocks.0/@node_objs.5" sink_obj="//@blocks.0/@node_objs.7"/>
+  <edges id="32" source_obj="//@blocks.0/@node_objs.6" sink_obj="//@blocks.0/@node_objs.7"/>
+  <edges id="33" source_obj="//@blocks.0/@node_objs.7" sink_obj="//@blocks.0/@node_objs.8"/>
+  <edges source_obj="//@blocks.0/@node_objs.8" sink_obj="//@ports.1"/>
+  <blocks id="11" name="rtIsNaNF" type="BlockType">
+    <node_objs xsi:type="cdfg:CdfgNode" id="2" name="value_read" lineNumber="70" originalName="value" fileName="../C_for_HLS/rt_nonfinite.c" fileDirectory=".." coreId="502" contextFuncName="rtIsNaNF" bitwidth="32" opcode="read" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../C_for_HLS/rt_nonfinite.c" linenumber="70" fileDirectory="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\HLS" functionName="rtIsNaNF"/>
+      <dataInputObjs>value_r</dataInputObjs>
+      <dataOutputObjs>fpext</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="3" name="dc" lineNumber="72" originalName="x" fileName="../C_for_HLS/rt_nonfinite.c" fileDirectory=".." rtlName="fpext_32ns_64_1_no_dsp_1_U21" coreName="Float2Double" implIndex="auto" control="no" opType="fpext" coreId="64" contextFuncName="rtIsNaNF" bitwidth="64" opcode="fpext" m_display="0" m_delay="18.4" m_topoIndex="2" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../C_for_HLS/rt_nonfinite.c" linenumber="72" fileDirectory="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\HLS" functionName="rtIsNaNF"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>bitcast</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="4" name="data_V" lineNumber="488" originalName="data.V" fileName="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h" fileDirectory="../../../../../../../scratch/2022.2/hls_product/608/2022.2/src/shared/hls/clib/hlsmath" rtlName="data_V_fu_24_p1" coreId="23" contextFuncName="fp_struct" bitwidth="64" opcode="bitcast" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h" linenumber="488" fileDirectory="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib\hlsmath" functionName="fp_struct"/>
+      <dataInputObjs>fpext</dataInputObjs>
+      <dataOutputObjs>partselect</dataOutputObjs>
+      <dataOutputObjs>trunc</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="5" name="fs_exp_V" lineNumber="628" originalName="fs.exp.V" fileName="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_ref.h" fileDirectory="../../../../../../../scratch/2022.2/hls_product/608/2022.2/src/shared/hls/clib/hlsmath" rtlName="fs_exp_V_fu_28_p4" coreId="3987286296" contextFuncName="get" bitwidth="11" opcode="partselect" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_ref.h" linenumber="628" fileDirectory="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib\hlsmath" functionName="get"/>
+      <dataInputObjs>bitcast</dataInputObjs>
+      <dataOutputObjs>icmp</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="6" name="fs_sig_V" lineNumber="628" originalName="fs.sig.V" fileName="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_ref.h" fileDirectory="../../../../../../../scratch/2022.2/hls_product/608/2022.2/src/shared/hls/clib/hlsmath" rtlName="fs_sig_V_fu_38_p1" coreId="544435055" contextFuncName="get" bitwidth="52" opcode="trunc" m_display="0" m_topoIndex="5" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_ref.h" linenumber="628" fileDirectory="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib\hlsmath" functionName="get"/>
+      <dataInputObjs>bitcast</dataInputObjs>
+      <dataOutputObjs>icmp</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="7" name="icmp_ln1019" lineNumber="1019" fileName="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h" fileDirectory="../../../../../../../scratch/2022.2/hls_product/608/2022.2/src/shared/hls/clib/hlsmath" rtlName="icmp_ln1019_fu_42_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="operator_eq_32_true" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.88" m_topoIndex="6" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h" linenumber="1019" fileDirectory="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib\hlsmath" functionName="operator==&amp;lt;32, true&amp;gt;"/>
+      <dataInputObjs>partselect</dataInputObjs>
+      <dataOutputObjs>and</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="8" name="icmp_ln1023" lineNumber="1023" fileName="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h" fileDirectory="../../../../../../../scratch/2022.2/hls_product/608/2022.2/src/shared/hls/clib/hlsmath" rtlName="icmp_ln1023_fu_48_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="operator_ne_32_true" bitwidth="1" opcode="icmp" m_display="0" m_delay="2.89" m_topoIndex="7" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h" linenumber="1023" fileDirectory="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib\hlsmath" functionName="operator!=&amp;lt;32, true&amp;gt;"/>
+      <dataInputObjs>trunc</dataInputObjs>
+      <dataOutputObjs>and</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="9" name="and_ln18" lineNumber="18" fileName="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_isnan.h" fileDirectory="../../../../../../../scratch/2022.2/hls_product/608/2022.2/src/shared/hls/clib/hlsmath" rtlName="ap_return" coreName="LogicGate" implIndex="auto" control="no" opType="and" coreId="74" contextFuncName="generic_isnan_double_s" bitwidth="1" opcode="and" m_display="0" m_delay="0.97" m_topoIndex="8" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_isnan.h" linenumber="18" fileDirectory="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib\hlsmath" functionName="generic_isnan&amp;lt;double&amp;gt;"/>
+      <dataInputObjs>icmp</dataInputObjs>
+      <dataInputObjs>icmp</dataInputObjs>
+      <dataOutputObjs>ret</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="10" name="_ln72" lineNumber="72" fileName="../C_for_HLS/rt_nonfinite.c" fileDirectory=".." coreId="1869635878" contextFuncName="rtIsNaNF" opcode="ret" m_display="0" m_topoIndex="9" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../C_for_HLS/rt_nonfinite.c" linenumber="72" fileDirectory="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022_30data_\HLS" functionName="rtIsNaNF"/>
+      <dataInputObjs>and</dataInputObjs>
+      <dataOutputObjs>ap_return</dataOutputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h">
+      <validLinenumbers>488</validLinenumbers>
+    </fileValidLineNumbers>
+    <fileValidLineNumbers fileName="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_isnan.h">
+      <validLinenumbers>18</validLinenumbers>
+    </fileValidLineNumbers>
+    <fileValidLineNumbers fileName="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_ref.h">
+      <validLinenumbers>628</validLinenumbers>
+    </fileValidLineNumbers>
+    <fileValidLineNumbers fileName="../C_for_HLS/rt_nonfinite.c">
+      <validLinenumbers>70</validLinenumbers>
+      <validLinenumbers>72</validLinenumbers>
+    </fileValidLineNumbers>
+    <fileValidLineNumbers fileName="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h">
+      <validLinenumbers>1019</validLinenumbers>
+      <validLinenumbers>1023</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <ScheduleInfo time="0"/>
+  <expressionNodes realName="dc_fu_20">
+    <nodeIds>3</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="and_ln18_fu_54">
+    <nodeIds>9</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln1023_fu_48">
+    <nodeIds>8</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln1019_fu_42">
+    <nodeIds>7</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="data_V_fu_24">
+    <nodeIds>4</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="fs_sig_V_fu_38">
+    <nodeIds>6</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="fs_exp_V_fu_28">
+    <nodeIds>5</nodeIds>
+  </expressionNodes>
+  <ioNodes realName="value_read_read_fu_14">
+    <nodeIds>2</nodeIds>
+  </ioNodes>
+  <ioPorts name="value_r">
+    <contents name="read">
+      <nodeIds>2</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return">
+    <contents name="ret">
+      <nodeIds>10</nodeIds>
+    </contents>
+  </ioPorts>
+  <fsm>
+    <states id="1">
+      <operations id="2" stage="1" latency="1"/>
+      <operations id="3" stage="1" latency="1"/>
+      <operations id="4" stage="1" latency="1"/>
+      <operations id="5" stage="1" latency="1"/>
+      <operations id="6" stage="1" latency="1"/>
+      <operations id="7" stage="1" latency="1"/>
+      <operations id="8" stage="1" latency="1"/>
+      <operations id="9" stage="1" latency="1"/>
+      <operations id="10" stage="1" latency="1"/>
+    </states>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="rtIsNaNF" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>11</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>

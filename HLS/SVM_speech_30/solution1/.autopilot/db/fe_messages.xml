@@ -1,0 +1,222 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:10:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart1 port=in7" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:11:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart1 port=in5" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:12:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart1 port=in1" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:13:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart1 port=in4" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:14:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart1 port=in3" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:15:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart2 port=in11" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:16:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart2 port=in10" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:17:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart2 port=in12" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:18:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart2 port=in13" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:19:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart2 port=in15" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:20:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart2 port=in16" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:21:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart2 port=in9" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:22:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart2 port=in14" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:23:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart3 port=in21" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:24:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart3 port=in19" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:25:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart3 port=in17" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:26:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart3 port=in24" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:27:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart3 port=in20" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:28:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart3 port=in18" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:29:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart3 port=in22" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:30:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart3 port=in23" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:31:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart4 port=in28" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:32:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart4 port=in29" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:33:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart4 port=in31" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:34:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart4 port=in26" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:35:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart4 port=in32" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:36:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart4 port=in30" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:37:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart4 port=in27" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:38:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart4 port=in25" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/csynth.tcl:47:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=svm_speech_30" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:6:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:7:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart1 port=in2" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:8:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart1 port=in6" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/ihsan/Documents/MATLAB/svm_speech_23122022_30data_/HLS/SVM_speech_30/solution1/directives.tcl:9:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="svm_speech_30" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite bundle=inputpart1 port=in8" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:219:72" msg_body="Inlining function 'ssdm_int&lt;64, false&gt;::ssdm_int(unsigned long)' into 'ap_int_base&lt;64, false&gt;::ap_int_base(unsigned long long)'">
+        <args Callee="ssdm_int&lt;64, false&gt;::ssdm_int(unsigned long)" Caller="ap_int_base&lt;64, false&gt;::ap_int_base(unsigned long long)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:1129:30" msg_body="Inlining function 'ap_bit_ref&lt;64, false&gt;::ap_bit_ref(ap_int_base&lt;64, false&gt;*, int)' into 'ap_int_base&lt;64, false&gt;::operator[](int)'">
+        <args Callee="ap_bit_ref&lt;64, false&gt;::ap_bit_ref(ap_int_base&lt;64, false&gt;*, int)" Caller="ap_int_base&lt;64, false&gt;::operator[](int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:1129:30" msg_body="Inlining function 'ap_bit_ref&lt;1, false&gt;::ap_bit_ref(ap_int_base&lt;1, false&gt;*, int)' into 'ap_int_base&lt;1, false&gt;::operator[](int)'">
+        <args Callee="ap_bit_ref&lt;1, false&gt;::ap_bit_ref(ap_int_base&lt;1, false&gt;*, int)" Caller="ap_int_base&lt;1, false&gt;::operator[](int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_ref.h:845:38" msg_body="Inlining function 'ap_bit_ref&lt;64, false&gt;::operator bool() const' into 'ap_bit_ref&lt;1, false&gt;&amp; ap_bit_ref&lt;1, false&gt;::operator=&lt;64, false&gt;(ap_bit_ref&lt;64, false&gt; const&amp;)'">
+        <args Callee="ap_bit_ref&lt;64, false&gt;::operator bool() const" Caller="ap_bit_ref&lt;1, false&gt;&amp; ap_bit_ref&lt;1, false&gt;::operator=&lt;64, false&gt;(ap_bit_ref&lt;64, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_ref.h:845:12" msg_body="Inlining function 'ap_bit_ref&lt;1, false&gt;::operator=(unsigned long long)' into 'ap_bit_ref&lt;1, false&gt;&amp; ap_bit_ref&lt;1, false&gt;::operator=&lt;64, false&gt;(ap_bit_ref&lt;64, false&gt; const&amp;)'">
+        <args Callee="ap_bit_ref&lt;1, false&gt;::operator=(unsigned long long)" Caller="ap_bit_ref&lt;1, false&gt;&amp; ap_bit_ref&lt;1, false&gt;::operator=&lt;64, false&gt;(ap_bit_ref&lt;64, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:1048:12" msg_body="Inlining function 'ap_range_ref&lt;64, false&gt;::ap_range_ref(ap_int_base&lt;64, false&gt;*, int, int)' into 'ap_int_base&lt;64, false&gt;::range(int, int)'">
+        <args Callee="ap_range_ref&lt;64, false&gt;::ap_range_ref(ap_int_base&lt;64, false&gt;*, int, int)" Caller="ap_int_base&lt;64, false&gt;::range(int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:1085:18" msg_body="Inlining function 'ap_int_base&lt;64, false&gt;::range(int, int)' into 'ap_int_base&lt;64, false&gt;::operator()(int, int)'">
+        <args Callee="ap_int_base&lt;64, false&gt;::range(int, int)" Caller="ap_int_base&lt;64, false&gt;::operator()(int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:1048:12" msg_body="Inlining function 'ap_range_ref&lt;11, false&gt;::ap_range_ref(ap_int_base&lt;11, false&gt;*, int, int)' into 'ap_int_base&lt;11, false&gt;::range(int, int)'">
+        <args Callee="ap_range_ref&lt;11, false&gt;::ap_range_ref(ap_int_base&lt;11, false&gt;*, int, int)" Caller="ap_int_base&lt;11, false&gt;::range(int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:1085:18" msg_body="Inlining function 'ap_int_base&lt;11, false&gt;::range(int, int)' into 'ap_int_base&lt;11, false&gt;::operator()(int, int)'">
+        <args Callee="ap_int_base&lt;11, false&gt;::range(int, int)" Caller="ap_int_base&lt;11, false&gt;::operator()(int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:358:20" msg_body="Inlining function 'ap_range_ref&lt;64, false&gt;::get() const' into 'ap_int_base&lt;64, false&gt;::ap_int_base&lt;64, false&gt;(ap_range_ref&lt;64, false&gt; const&amp;)'">
+        <args Callee="ap_range_ref&lt;64, false&gt;::get() const" Caller="ap_int_base&lt;64, false&gt;::ap_int_base&lt;64, false&gt;(ap_range_ref&lt;64, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:185:106" msg_body="Inlining function '_ZN8ssdm_intILi11ELb0EEC2EDq11_j' into 'ap_int_base&lt;11, false&gt;::ap_int_base&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;)'">
+        <args Callee="_ZN8ssdm_intILi11ELb0EEC2EDq11_j" Caller="ap_int_base&lt;11, false&gt;::ap_int_base&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_ref.h:367:31" msg_body="Inlining function 'ap_int_base&lt;11, false&gt;::ap_int_base&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;)' into 'ap_range_ref&lt;11, false&gt;&amp; ap_range_ref&lt;11, false&gt;::operator=&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;11, false&gt;::ap_int_base&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;)" Caller="ap_range_ref&lt;11, false&gt;&amp; ap_range_ref&lt;11, false&gt;::operator=&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_ref.h:382:22" msg_body="Inlining function 'ap_int_base&lt;64, false&gt;::ap_int_base&lt;64, false&gt;(ap_range_ref&lt;64, false&gt; const&amp;)' into 'ap_range_ref&lt;11, false&gt;&amp; ap_range_ref&lt;11, false&gt;::operator=&lt;64, false&gt;(ap_range_ref&lt;64, false&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;64, false&gt;::ap_int_base&lt;64, false&gt;(ap_range_ref&lt;64, false&gt; const&amp;)" Caller="ap_range_ref&lt;11, false&gt;&amp; ap_range_ref&lt;11, false&gt;::operator=&lt;64, false&gt;(ap_range_ref&lt;64, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_ref.h:382:12" msg_body="Inlining function 'ap_range_ref&lt;11, false&gt;&amp; ap_range_ref&lt;11, false&gt;::operator=&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;)' into 'ap_range_ref&lt;11, false&gt;&amp; ap_range_ref&lt;11, false&gt;::operator=&lt;64, false&gt;(ap_range_ref&lt;64, false&gt; const&amp;)'">
+        <args Callee="ap_range_ref&lt;11, false&gt;&amp; ap_range_ref&lt;11, false&gt;::operator=&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;)" Caller="ap_range_ref&lt;11, false&gt;&amp; ap_range_ref&lt;11, false&gt;::operator=&lt;64, false&gt;(ap_range_ref&lt;64, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:1048:12" msg_body="Inlining function 'ap_range_ref&lt;52, false&gt;::ap_range_ref(ap_int_base&lt;52, false&gt;*, int, int)' into 'ap_int_base&lt;52, false&gt;::range(int, int)'">
+        <args Callee="ap_range_ref&lt;52, false&gt;::ap_range_ref(ap_int_base&lt;52, false&gt;*, int, int)" Caller="ap_int_base&lt;52, false&gt;::range(int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:1085:18" msg_body="Inlining function 'ap_int_base&lt;52, false&gt;::range(int, int)' into 'ap_int_base&lt;52, false&gt;::operator()(int, int)'">
+        <args Callee="ap_int_base&lt;52, false&gt;::range(int, int)" Caller="ap_int_base&lt;52, false&gt;::operator()(int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:185:106" msg_body="Inlining function '_ZN8ssdm_intILi52ELb0EEC2EDq52_j' into 'ap_int_base&lt;52, false&gt;::ap_int_base&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;)'">
+        <args Callee="_ZN8ssdm_intILi52ELb0EEC2EDq52_j" Caller="ap_int_base&lt;52, false&gt;::ap_int_base&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_ref.h:367:31" msg_body="Inlining function 'ap_int_base&lt;52, false&gt;::ap_int_base&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;)' into 'ap_range_ref&lt;52, false&gt;&amp; ap_range_ref&lt;52, false&gt;::operator=&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;52, false&gt;::ap_int_base&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;)" Caller="ap_range_ref&lt;52, false&gt;&amp; ap_range_ref&lt;52, false&gt;::operator=&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_ref.h:382:22" msg_body="Inlining function 'ap_int_base&lt;64, false&gt;::ap_int_base&lt;64, false&gt;(ap_range_ref&lt;64, false&gt; const&amp;)' into 'ap_range_ref&lt;52, false&gt;&amp; ap_range_ref&lt;52, false&gt;::operator=&lt;64, false&gt;(ap_range_ref&lt;64, false&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;64, false&gt;::ap_int_base&lt;64, false&gt;(ap_range_ref&lt;64, false&gt; const&amp;)" Caller="ap_range_ref&lt;52, false&gt;&amp; ap_range_ref&lt;52, false&gt;::operator=&lt;64, false&gt;(ap_range_ref&lt;64, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_ref.h:382:12" msg_body="Inlining function 'ap_range_ref&lt;52, false&gt;&amp; ap_range_ref&lt;52, false&gt;::operator=&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;)' into 'ap_range_ref&lt;52, false&gt;&amp; ap_range_ref&lt;52, false&gt;::operator=&lt;64, false&gt;(ap_range_ref&lt;64, false&gt; const&amp;)'">
+        <args Callee="ap_range_ref&lt;52, false&gt;&amp; ap_range_ref&lt;52, false&gt;::operator=&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;)" Caller="ap_range_ref&lt;52, false&gt;&amp; ap_range_ref&lt;52, false&gt;::operator=&lt;64, false&gt;(ap_range_ref&lt;64, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:491:19" msg_body="Inlining function 'ap_range_ref&lt;52, false&gt;&amp; ap_range_ref&lt;52, false&gt;::operator=&lt;64, false&gt;(ap_range_ref&lt;64, false&gt; const&amp;)' into 'fp_struct&lt;double&gt;::fp_struct(double)'">
+        <args Callee="ap_range_ref&lt;52, false&gt;&amp; ap_range_ref&lt;52, false&gt;::operator=&lt;64, false&gt;(ap_range_ref&lt;64, false&gt; const&amp;)" Caller="fp_struct&lt;double&gt;::fp_struct(double)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:491:9" msg_body="Inlining function 'ap_int_base&lt;52, false&gt;::operator()(int, int)' into 'fp_struct&lt;double&gt;::fp_struct(double)'">
+        <args Callee="ap_int_base&lt;52, false&gt;::operator()(int, int)" Caller="fp_struct&lt;double&gt;::fp_struct(double)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:491:21" msg_body="Inlining function 'ap_int_base&lt;64, false&gt;::operator()(int, int)' into 'fp_struct&lt;double&gt;::fp_struct(double)'">
+        <args Callee="ap_int_base&lt;64, false&gt;::operator()(int, int)" Caller="fp_struct&lt;double&gt;::fp_struct(double)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:490:19" msg_body="Inlining function 'ap_range_ref&lt;11, false&gt;&amp; ap_range_ref&lt;11, false&gt;::operator=&lt;64, false&gt;(ap_range_ref&lt;64, false&gt; const&amp;)' into 'fp_struct&lt;double&gt;::fp_struct(double)'">
+        <args Callee="ap_range_ref&lt;11, false&gt;&amp; ap_range_ref&lt;11, false&gt;::operator=&lt;64, false&gt;(ap_range_ref&lt;64, false&gt; const&amp;)" Caller="fp_struct&lt;double&gt;::fp_struct(double)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:490:9" msg_body="Inlining function 'ap_int_base&lt;11, false&gt;::operator()(int, int)' into 'fp_struct&lt;double&gt;::fp_struct(double)'">
+        <args Callee="ap_int_base&lt;11, false&gt;::operator()(int, int)" Caller="fp_struct&lt;double&gt;::fp_struct(double)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:490:21" msg_body="Inlining function 'ap_int_base&lt;64, false&gt;::operator()(int, int)' into 'fp_struct&lt;double&gt;::fp_struct(double)'">
+        <args Callee="ap_int_base&lt;64, false&gt;::operator()(int, int)" Caller="fp_struct&lt;double&gt;::fp_struct(double)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:489:17" msg_body="Inlining function 'ap_bit_ref&lt;1, false&gt;&amp; ap_bit_ref&lt;1, false&gt;::operator=&lt;64, false&gt;(ap_bit_ref&lt;64, false&gt; const&amp;)' into 'fp_struct&lt;double&gt;::fp_struct(double)'">
+        <args Callee="ap_bit_ref&lt;1, false&gt;&amp; ap_bit_ref&lt;1, false&gt;::operator=&lt;64, false&gt;(ap_bit_ref&lt;64, false&gt; const&amp;)" Caller="fp_struct&lt;double&gt;::fp_struct(double)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:489:9" msg_body="Inlining function 'ap_int_base&lt;1, false&gt;::operator[](int)' into 'fp_struct&lt;double&gt;::fp_struct(double)'">
+        <args Callee="ap_int_base&lt;1, false&gt;::operator[](int)" Caller="fp_struct&lt;double&gt;::fp_struct(double)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:489:19" msg_body="Inlining function 'ap_int_base&lt;64, false&gt;::operator[](int)' into 'fp_struct&lt;double&gt;::fp_struct(double)'">
+        <args Callee="ap_int_base&lt;64, false&gt;::operator[](int)" Caller="fp_struct&lt;double&gt;::fp_struct(double)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:214:67" msg_body="Inlining function 'ssdm_int&lt;32, true&gt;::ssdm_int(int)' into 'ap_int_base&lt;32, true&gt;::ap_int_base(int)'">
+        <args Callee="ssdm_int&lt;32, true&gt;::ssdm_int(int)" Caller="ap_int_base&lt;32, true&gt;::ap_int_base(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:1788:1853" msg_body="Inlining function 'ap_int_base&lt;32, true&gt;::ap_int_base(int)' into 'bool operator==&lt;11, false&gt;(ap_int_base&lt;11, false&gt; const&amp;, int)'">
+        <args Callee="ap_int_base&lt;32, true&gt;::ap_int_base(int)" Caller="bool operator==&lt;11, false&gt;(ap_int_base&lt;11, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:1788:1850" msg_body="Inlining function 'bool ap_int_base&lt;11, false&gt;::operator==&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;) const' into 'bool operator==&lt;11, false&gt;(ap_int_base&lt;11, false&gt; const&amp;, int)'">
+        <args Callee="bool ap_int_base&lt;11, false&gt;::operator==&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;) const" Caller="bool operator==&lt;11, false&gt;(ap_int_base&lt;11, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:1788:2233" msg_body="Inlining function 'ap_int_base&lt;32, true&gt;::ap_int_base(int)' into 'bool operator!=&lt;52, false&gt;(ap_int_base&lt;52, false&gt; const&amp;, int)'">
+        <args Callee="ap_int_base&lt;32, true&gt;::ap_int_base(int)" Caller="bool operator!=&lt;52, false&gt;(ap_int_base&lt;52, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/include/header_files\ap_int_base.h:1788:2230" msg_body="Inlining function 'bool ap_int_base&lt;52, false&gt;::operator!=&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;) const' into 'bool operator!=&lt;52, false&gt;(ap_int_base&lt;52, false&gt; const&amp;, int)'">
+        <args Callee="bool ap_int_base&lt;52, false&gt;::operator!=&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;) const" Caller="bool operator!=&lt;52, false&gt;(ap_int_base&lt;52, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_isnan.h:18:22" msg_body="Inlining function 'bool operator==&lt;11, false&gt;(ap_int_base&lt;11, false&gt; const&amp;, int)' into 'int generic_isnan&lt;double&gt;(double)'">
+        <args Callee="bool operator==&lt;11, false&gt;(ap_int_base&lt;11, false&gt; const&amp;, int)" Caller="int generic_isnan&lt;double&gt;(double)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_isnan.h:18:62" msg_body="Inlining function 'bool operator!=&lt;52, false&gt;(ap_int_base&lt;52, false&gt; const&amp;, int)' into 'int generic_isnan&lt;double&gt;(double)'">
+        <args Callee="bool operator!=&lt;52, false&gt;(ap_int_base&lt;52, false&gt; const&amp;, int)" Caller="int generic_isnan&lt;double&gt;(double)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_isnan.h:16:0" msg_body="Inlining function 'fp_struct&lt;double&gt;::fp_struct(double)' into 'int generic_isnan&lt;double&gt;(double)'">
+        <args Callee="fp_struct&lt;double&gt;::fp_struct(double)" Caller="int generic_isnan&lt;double&gt;(double)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="C:\scratch\2022.2\hls_product\608\2022.2\src\shared\hls\clib\hlsmath\src\c\isnandouble.cpp:7:0" msg_body="Inlining function 'int generic_isnan&lt;double&gt;(double)' into '__isnan'">
+        <args Callee="int generic_isnan&lt;double&gt;(double)" Caller="__isnan"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../C_for_HLS/rt_nonfinite.c:71:0" msg_body="Inlining function '__isnan' into 'rtIsNaNF'">
+        <args Callee="__isnan" Caller="rtIsNaNF"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

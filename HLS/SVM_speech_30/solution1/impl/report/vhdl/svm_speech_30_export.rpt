@@ -1,0 +1,23 @@
+
+
+Implementation tool: Xilinx Vivado v.2022.2
+Project:             SVM_speech_30
+Solution:            solution1
+Device target:       xc7z020-clg400-1
+Report date:         Sat Dec 24 04:50:41 +0100 2022
+
+#=== Post-Synthesis Resource usage ===
+SLICE:            0
+LUT:          22802
+FF:            8900
+DSP:             31
+BRAM:            26
+URAM:             0
+LATCH:            0
+SRL:              0
+CLB:              0
+
+#=== Final timing ===
+CP required:                     100.000
+CP achieved post-synthesis:      56.526
+Timing met
